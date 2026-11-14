@@ -38,7 +38,7 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         })
         .addTo(map);
-      // 서비스 범위(숙소에서 500m)를 옅은 원으로 표시
+      // 서비스 범위(숙소에서 600m)를 옅은 원으로 표시
       leaflet
         .circle([STAY.lat, STAY.lng], {
           radius: SERVICE_RADIUS_M,

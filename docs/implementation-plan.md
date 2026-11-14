@@ -1,12 +1,12 @@
 # Hyochang Eats — 구현 계획과 설계 (v2)
 
 - 기준 문서: [PRD](https://claude.ai/artifact/DD8Sp1T6dWADbNPdZqPQYB) (2026-11-14 기준)
-- 작성일: 2026-11-14 · v2: 설계 검토([plan-review.md](plan-review.md), 23건) 반영 · v3(2026-11-15): 서비스 중심을 역에서 숙소로 변경
+- 작성일: 2026-11-14 · v2: 설계 검토([plan-review.md](plan-review.md), 23건) 반영 · v3(2026-11-15): 서비스 중심을 역에서 숙소로 변경, 반경 600m
 - 상태: 검토 반영 완료, 열린 질문 Q2·Q3 결정 대기
 
 ## 1. 요약
 
-**숙소 Hyochang Park Stay(서울 용산구 원효로1가 23-70, 백범로81길 7) 반경 500m**의 외국인 친화 맛집 30곳을 지도로 보여주는 영어 기본·한국어 지원 모바일 웹앱을 5주 안에 정식 출시한다. 숙소 이용 손님에게 공유하는 것이 목적이다. 효창공원앞역(숙소에서 약 310m)은 지도에 길잡이로만 표시한다.
+**숙소 Hyochang Park Stay(서울 용산구 원효로1가 23-70, 백범로81길 7) 반경 600m**(걸어서 약 8분, 용문시장 포함)의 외국인 친화 맛집 30곳을 지도로 보여주는 영어 기본·한국어 지원 모바일 웹앱을 5주 안에 정식 출시한다. 숙소 이용 손님에게 공유하는 것이 목적이다. 효창공원앞역(숙소에서 약 310m)은 지도에 길잡이로만 표시한다.
 서버·DB 없이 **정적 데이터 + Next.js(App Router) on vinext + Cloudflare Workers** 로 만든다.
 **가장 큰 작업은 개발이 아니라 맛집 30곳 직접 검증·촬영·이중언어 작성(약 60시간)** 이므로, 일정은 "데이터 트랙"과 "개발 트랙"을 나란히 두고 데이터를 4주차 말까지 끝낸다.
 
@@ -16,11 +16,11 @@
 | --- | --- | --- |
 | vinext + Cloudflare 프로젝트 생성 | 완료 | `vite.config.ts`, `cloudflare.config.ts` |
 | `/en`, `/ko` 라우트, `/` → `/en` 리다이렉트 | 완료 | `app/[lang]/`, `next.config.ts` |
-| 지도(Leaflet + OSM 타일), 숙소 이름표 핀, 역 표시, 숙소 500m 범위 원 | 완료 | `components/MapView.tsx`, `lib/area.ts` |
+| 지도(Leaflet + OSM 타일), 숙소 이름표 핀, 역 표시, 숙소 600m 범위 원 | 완료 | `components/MapView.tsx`, `lib/area.ts` |
 | 카테고리·태그 필터, 목록, 상세 카드, 길찾기 링크 | 완료 | `components/Explorer.tsx` |
 | 내 주변(위치) 정렬, 숙소 기준 거리 정렬 | 완료 | `components/Explorer.tsx` |
 | 맛집 데이터 | **0곳** (샘플 삭제, 빈 목록이면 "곧 올라와요" 안내) | `data/restaurants.ts` |
-| 맛집 조사 후보 302곳(숙소 500m 안 224곳), 외국인 인기 메뉴별 묶음 | 완료 | `docs/research-candidates.md` |
+| 맛집 조사 후보 457곳(숙소 600m 안 421곳), 외국인 인기 메뉴별 묶음 | 완료 | `docs/research-candidates.md` |
 | 로컬 빌드, 타입 검사 | 통과 | — |
 | Cloudflare 배포 | 완료: https://hyochang-eats.tklee3043.workers.dev | — |
 | git | GitHub 공개 저장소 `tklee3043-rgb/hyochang-eats` | — |
@@ -87,7 +87,7 @@ Vitest 테스트 파일 하나(`data/restaurants.test.ts`)로 만들고, `npm ru
 
 1. `id` 중복 없음, 소문자·하이픈만
 2. 모든 `{ en, ko }` 필드에 두 언어 모두 있음
-3. 숙소(`STAY`)에서 직선거리 ≤ `SERVICE_RADIUS_M`(500m)
+3. 숙소(`STAY`)에서 직선거리 ≤ `SERVICE_RADIUS_M`(600m)
 4. `category`, `tags` 값이 정해진 목록 안
 5. `checkedAt`이 유효한 날짜. 180일이 지났으면 **경고**만 한다
 6. `photos[].src` 파일이 `public/photos/`에 있고 파일 하나가 300KB 이하
@@ -259,7 +259,7 @@ PRD 지표 중 "길찾기 클릭률"은 이벤트 추적이 필요하다.
 | 리스크 | 영향 | 대응 |
 | --- | --- | --- |
 | 맛집 데이터 작업(약 60시간)이 밀림 | 출시 지연 | 데이터 트랙 주별 할당량, 2주차 말 30곳 가능 여부 판단 |
-| 숙소 500m 안에 기준을 만족하는 곳이 30곳 미만 | 목표 미달 | 후보는 224곳이라 가능성 낮음. 2주차 말에 다시 확인 |
+| 숙소 600m 안에 기준을 만족하는 곳이 30곳 미만 | 목표 미달 | 후보는 421곳이라 가능성 낮음. 2주차 말에 다시 확인 |
 | vinext 호환성 문제(실험 단계) | 일정 지연 | D0 기준 + 2일 제한, 넘으면 Next.js로 전환 |
 | 요청당 CPU 시간이 무료 한도 초과 | 요청 오류 | 첫 배포 직후 확인, `staticAssetsAdapter()` 프리렌더 |
 | 위치정보법 신고 대상일 수 있음 | 법적 문제 | 2주차 확인, 대상이면 위치 기능을 출시에서 빼는 것까지 고려 |
@@ -280,7 +280,7 @@ PRD 지표 중 "길찾기 클릭률"은 이벤트 추적이 필요하다.
 
 ## 9. PRD와 어긋난 부분 (PRD 수정 필요)
 
-- 기능 표 "용산 중심 지도" → "숙소(Hyochang Park Stay) 중심 지도, 반경 500m"
+- 기능 표 "용산 중심 지도" → "숙소(Hyochang Park Stay) 중심 지도, 반경 600m"
 - 타깃 사용자 "용산에 사는 외국인" → "Hyochang Park Stay에 묵는 외국인 손님"
 - 기술 스택 "`restaurants.json`", "`en.json`/`ko.json`" → `data/restaurants.ts`, `lib/i18n.ts` (D1·D5)
 - 기술 스택 분석 "Google Analytics 또는 Umami" → 쿠키 없는 도구 + 이벤트(D7)

@@ -14,5 +14,5 @@ export const STATION = {
   name: { en: "Hyochang Park Station", ko: "효창공원앞역" },
 };
 
-/** 숙소에서 이 거리(미터) 안의 가게만 다뤄요. 직선 500m, 도보 약 6~7분. */
-export const SERVICE_RADIUS_M = 500;
+/** 숙소에서 이 거리(미터) 안의 가게만 다뤄요. 직선 600m, 도보 약 8분. 용문시장까지 들어와요. */
+export const SERVICE_RADIUS_M = 600;

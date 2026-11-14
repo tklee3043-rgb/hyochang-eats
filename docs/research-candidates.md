@@ -2,28 +2,28 @@
 
 - 출처: 다이닝코드 검색 결과의 **가게 이름·음식 종류·주소·좌표·링크만** 모았어요. 리뷰·점수·사진은 가져오지 않았어요.
 - 수집일: 2026-11-15. 검색어: `효창공원앞역`, `효창공원앞역 중식`, `효창공원앞역 고기`, `효창공원앞역 치킨`, `효창공원앞역 술집`, `용문동 맛집`, `원효로1가 맛집`, `원효로2가 맛집`, `용문동 한우`, `원효로 한우`, `원효로 고기`, `원효로 중식`, `원효로 치킨`, `원효로 술집`, `용문동 술집`, `원효로1가 (전체 목록)`, `원효로2가 (전체 목록)`, `용문동 (전체 목록)`
-- 기준: **숙소 Hyochang Park Stay(원효로1가 23-70, 백범로81길 7)**에서 직선거리. 앱 범위는 숙소 500m(걸어서 6~7분). 효창공원앞역까지는 약 310m.
+- 기준: **숙소 Hyochang Park Stay(원효로1가 23-70, 백범로81길 7)**에서 직선거리. 앱 범위는 숙소 600m(걸어서 약 8분, 용문시장 포함). 효창공원앞역까지는 약 310m.
 - 목록은 종류별로 나누고, 각 종류 안에서는 숙소에서 가까운 순이에요. "역" 열은 효창공원앞역까지 거리예요.
 - 이 리스트는 **가 볼 곳 고르기용 후보**예요. 앱에는 직접 가서 확인한 내용과 직접 찍은 사진만 넣어요([조사 템플릿](research-template.md)).
 - 분류는 음식 키워드로 자동으로 나눈 거라 틀린 곳이 있을 수 있어요.
 
 ## 요약
 
-- 수집한 곳: 457곳 → **500m 안: 336곳**, 500m 밖: 121곳
-- 🐂 한우·소고기: 12곳
-- 🥩 고깃집 (돼지·갈비): 31곳
-- 🍗 치킨: 23곳
-- 🥟 중식: 9곳
-- 🍶 술집: 53곳
-- ☕ 카페·디저트: 87곳
-- 🍢 분식: 18곳
-- 🍜 국수·국밥·탕: 30곳
-- 🍚 한식: 38곳
-- 🍽️ 기타 (양식·일식·아시안 등): 35곳
+- 수집한 곳: 457곳 → **600m 안: 421곳**, 600m 밖: 36곳
+- 🐂 한우·소고기: 16곳
+- 🥩 고깃집 (돼지·갈비): 40곳
+- 🍗 치킨: 29곳
+- 🥟 중식: 18곳
+- 🍶 술집: 63곳
+- ☕ 카페·디저트: 103곳
+- 🍢 분식: 28곳
+- 🍜 국수·국밥·탕: 36곳
+- 🍚 한식: 43곳
+- 🍽️ 기타 (양식·일식·아시안 등): 45곳
 
 ## 🌏 외국인이 좋아하는 한국 음식으로 고르기
 
-메뉴 키워드로 숙소 500m 안 가게를 골랐어요. "누가 좋아하나"는 여행객 사이의 일반적인 경향이에요. 아래 종류별 목록에도 같은 가게가 다시 나와요.
+메뉴 키워드로 숙소 600m 안 가게를 골랐어요. "누가 좋아하나"는 여행객 사이의 일반적인 경향이에요. 아래 종류별 목록에도 같은 가게가 다시 나와요.
 
 ### 🍗 닭한마리 (2곳)
 
@@ -32,7 +32,7 @@
 - 큰집 닭한마리 남영역 — 닭한마리, 닭칼국수 · 숙소 458m · [보기](https://www.diningcode.com/profile.php?rid=nRtk3GgUQlDi)
 - 마포닭한마리 공덕본점 — 닭한마리, 닭볶음탕 · 숙소 475m · [보기](https://www.diningcode.com/profile.php?rid=WaKkadrPe59M)
 
-### 🍜 칼국수·수제비 (4곳)
+### 🍜 칼국수·수제비 (6곳)
 
 일본 여행객에게 인기. 맵지 않아 처음 온 손님에게 무난해요.
 
@@ -40,6 +40,8 @@
 - 등촌샤브칼국수 용산점 — 칼국수, 볶음밥 · 숙소 440m · [보기](https://www.diningcode.com/profile.php?rid=WmgDU69uy2yL)
 - 큰집 닭한마리 남영역 — 닭한마리, 닭칼국수 · 숙소 458m · [보기](https://www.diningcode.com/profile.php?rid=nRtk3GgUQlDi)
 - 용문동 팥칼국수 용문시장 — 팥죽, 팥칼국수 · 숙소 481m · [보기](https://www.diningcode.com/profile.php?rid=NmxdxQL2V9SK)
+- 솔향기칼국수수제비 — 칼국수, 수제비 · 숙소 524m · [보기](https://www.diningcode.com/profile.php?rid=0dMOaubdtT99)
+- 손맛칼국수 효창공원앞역 — 칼국수, 삼겹살 · 숙소 566m · [보기](https://www.diningcode.com/profile.php?rid=6XTFlMwVXEGk)
 
 ### 🐔 삼계탕 (2곳)
 
@@ -48,7 +50,7 @@
 - 강원정 남영역 — 삼계탕, 인삼주 · 숙소 335m · [보기](https://www.diningcode.com/profile.php?rid=t4LB5RCB6LTk)
 - 황토방 — 삼계탕, 백반 · 숙소 463m · [보기](https://www.diningcode.com/profile.php?rid=8jy4HwhjSqr7)
 
-### 🍢 길거리 음식 (떡볶이·어묵·튀김·호떡·붕어빵·꽈배기·핫도그·닭강정) (7곳)
+### 🍢 길거리 음식 (떡볶이·어묵·튀김·호떡·붕어빵·꽈배기·핫도그·닭강정) (15곳)
 
 K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 혼자 먹기 좋아요. 떡볶이는 매운 편.
 
@@ -59,8 +61,16 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 경성찹쌀꽈배기 용문점 — 꽈배기, 핫도그 · 숙소 445m · [보기](https://www.diningcode.com/profile.php?rid=owP7hvq31tHH)
 - 부산어묵 용문시장 — 떡볶이, 어묵 · 숙소 487m · [보기](https://www.diningcode.com/profile.php?rid=LhphyejiFgDa)
 - 용문통닭 용문시장 — 치킨, 닭강정 · 숙소 489m · [보기](https://www.diningcode.com/profile.php?rid=4JjpxGDiqmHr)
+- 용문오뎅 — 떡볶이, 오뎅떡볶이 · 숙소 502m · [보기](https://www.diningcode.com/profile.php?rid=KPbnldbYc4SV)
+- 비전만두 — 꽈배기, 사라다빵 · 숙소 504m · [보기](https://www.diningcode.com/profile.php?rid=4fVYSpa8BJE5)
+- 미미떡볶이 — 떡볶이, 쫄면 · 숙소 507m · [보기](https://www.diningcode.com/profile.php?rid=mqj63nQm05Jv)
+- 공꼬마김밥 용문시장 — 김밥, 떡볶이 · 숙소 508m · [보기](https://www.diningcode.com/profile.php?rid=5hnEZIzf9eck)
+- 맥시칸치킨 도원점 — 닭강정, 치킨 · 숙소 511m · [보기](https://www.diningcode.com/profile.php?rid=vMbrJKAMwZda)
+- 점순이호떡 용문시장점 — 호떡, 씨앗호떡 · 숙소 524m · [보기](https://www.diningcode.com/profile.php?rid=UvwHGv6ffxmk)
+- 빨강떡볶이 용산역 — 떡볶이, 짜장 · 숙소 582m · [보기](https://www.diningcode.com/profile.php?rid=O4vN6F8k9C8V)
+- 강타순살떡볶이 — 종합분식, 분식 · 숙소 596m · [보기](https://www.diningcode.com/profile.php?rid=YyZHrkZWgneV)
 
-### 🍙 김밥 (5곳)
+### 🍙 김밥 (7곳)
 
 포장이 쉬워 아침이나 소풍(효창공원)용으로 좋아요. 채식 김밥이 있는 곳은 채식 손님에게도 좋아요.
 
@@ -69,8 +79,10 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 싸다김밥 남영역점 — 분식, 김밥 · 숙소 360m · [보기](https://www.diningcode.com/profile.php?rid=1qcjHhc5ozzF)
 - 싱싱나라김밥 용문시장 — 김밥 · 숙소 429m · [보기](https://www.diningcode.com/profile.php?rid=B5ifQh4lcWxH)
 - 미쁨김밥 — 김밥 · 숙소 441m · [보기](https://www.diningcode.com/profile.php?rid=VKdpPBhxbUSM)
+- 공꼬마김밥 용문시장 — 김밥, 떡볶이 · 숙소 508m · [보기](https://www.diningcode.com/profile.php?rid=5hnEZIzf9eck)
+- 정가네왕김밥 용문점 — 김밥, 참치김밥 · 숙소 539m · [보기](https://www.diningcode.com/profile.php?rid=ExyKwxsEk89s)
 
-### 🥩 한우·소고기 구이 (12곳)
+### 🥩 한우·소고기 구이 (15곳)
 
 중화권·동남아·서양 여행객 모두 "한우"를 특별한 경험으로 찾아요. 가격대가 높아요.
 
@@ -86,8 +98,11 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 박사네등심 남영역 — 한우, 등심 · 숙소 447m · [보기](https://www.diningcode.com/profile.php?rid=3bgbRJMEOz1M)
 - 꽃보다소 용산점 — 소갈비 · 숙소 471m · [보기](https://www.diningcode.com/profile.php?rid=x27vVGuKegsA)
 - 용문한우곱창 — 곱창, 한우곱창 · 숙소 471m · [보기](https://www.diningcode.com/profile.php?rid=uWL2eQEdoMYt)
+- 흑산도 홍어 용문시장 — 홍어삼합, 한우육회 · 숙소 533m · [보기](https://www.diningcode.com/profile.php?rid=7T2bsyYulPT6)
+- 세미네 — 갈비찜, 소갈비찜 · 숙소 534m · [보기](https://www.diningcode.com/profile.php?rid=SeH73DJP0n6e)
+- 정통우거지탕 용문시장 — 소갈비, LA갈비 · 숙소 540m · [보기](https://www.diningcode.com/profile.php?rid=pnBrdjn9BLDP)
 
-### 🥓 삼겹살·돼지갈비 (13곳)
+### 🥓 삼겹살·돼지갈비 (18곳)
 
 한국 BBQ의 기본. 보통 2인분부터라 혼자 온 손님은 주문 팁을 꼭 적어 줘요.
 
@@ -104,8 +119,13 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 풍년갈비 용문시장 — 돼지갈비, 돼지왕갈비 · 숙소 444m · [보기](https://www.diningcode.com/profile.php?rid=tm65BXdltLxv)
 - 김남희식당 용문시장 — 삼겹살, 생삼겹 · 숙소 463m · [보기](https://www.diningcode.com/profile.php?rid=JPuVVXw2oOod)
 - 진미식당 삼각지 — 콩국수, 생삼겹살 · 숙소 477m · [보기](https://www.diningcode.com/profile.php?rid=tLWPXtXCrvJ3)
+- 용산대박집 용문시장 — 삼겹살, 고기집 · 숙소 509m · [보기](https://www.diningcode.com/profile.php?rid=nlWPkIVvG1KQ)
+- 풍년숯불갈비 남영역 — 삼겹살, 양념게장 · 숙소 517m · [보기](https://www.diningcode.com/profile.php?rid=UJNe7wAlLH91)
+- 홍돈 용문시장 — 삼겹살, 훈제 · 숙소 560m · [보기](https://www.diningcode.com/profile.php?rid=lKvGhTggYTNB)
+- 손맛칼국수 효창공원앞역 — 칼국수, 삼겹살 · 숙소 566m · [보기](https://www.diningcode.com/profile.php?rid=6XTFlMwVXEGk)
+- 호남식당 — 청국장, 생삼겹살 · 숙소 588m · [보기](https://www.diningcode.com/profile.php?rid=qZgDBTIfn1dx)
 
-### 🍻 치킨·치맥 (22곳)
+### 🍻 치킨·치맥 (28곳)
 
 모든 나라 여행객에게 인기. 늦게까지 하는 곳이 많아요.
 
@@ -131,8 +151,14 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 보스바베큐 용문시장 — 요리주점, 치킨 · 숙소 478m · [보기](https://www.diningcode.com/profile.php?rid=umbIlLfTmlrG)
 - 용문통닭 용문시장 — 치킨, 닭강정 · 숙소 489m · [보기](https://www.diningcode.com/profile.php?rid=4JjpxGDiqmHr)
 - 21세기 정통생맥주 용문시장 — 호프집, 옛날치킨 · 숙소 491m · [보기](https://www.diningcode.com/profile.php?rid=hiD875qnPacL)
+- 훌랄라참숯바베큐치킨 용산원효점 — 치킨, 바베큐치킨 · 숙소 501m · [보기](https://www.diningcode.com/profile.php?rid=acoKAxTeK1p4)
+- 노랑통닭 용산용문동점 — 치킨, 고기 · 숙소 505m · [보기](https://www.diningcode.com/profile.php?rid=2pBYwFn0xIYg)
+- 둘둘치킨 전자상가점 — 후라이드, 옛날치킨 · 숙소 506m · [보기](https://www.diningcode.com/profile.php?rid=Vmx2lVrWpoOO)
+- 맥시칸치킨 도원점 — 닭강정, 치킨 · 숙소 511m · [보기](https://www.diningcode.com/profile.php?rid=vMbrJKAMwZda)
+- 호프광장 용문시장 — 호프집, 옛날통닭 · 숙소 543m · [보기](https://www.diningcode.com/profile.php?rid=wzuYPReBSnGx)
+- BHC치킨 효창공원역점 — 치킨 · 숙소 595m · [보기](https://www.diningcode.com/profile.php?rid=3Thz0YNoyV6r)
 
-### 🥞 파전·빈대떡·막걸리 (5곳)
+### 🥞 파전·빈대떡·막걸리 (7곳)
 
 서양 여행객에게 특히 인기. 비 오는 날 추천하기 좋아요.
 
@@ -141,8 +167,10 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 아성꼬막홍어막걸리 용문시장 — 홍어삼합, 빈대떡 · 숙소 385m · [보기](https://www.diningcode.com/profile.php?rid=py8sK6DV1rUT)
 - 예전집 — 막걸리, 전집 · 숙소 469m · [보기](https://www.diningcode.com/profile.php?rid=aAZyUd5IQ0hB)
 - 왕땅떡갈비 용문시장점 — 떡갈비, 빈대떡 · 숙소 491m · [보기](https://www.diningcode.com/profile.php?rid=pbj6pGxKRLHT)
+- 용문시장 이모네빈대떡 — 빈대떡, 모듬전 · 숙소 502m · [보기](https://www.diningcode.com/profile.php?rid=Tqj7Nt8qaNAX)
+- 큰집빈대떡 남영역 — 전집, 갑오징어 · 숙소 575m · [보기](https://www.diningcode.com/profile.php?rid=cQIdhBSzy4Kl)
 
-### 🍲 순두부·국밥·곰탕·해장국 (14곳)
+### 🍲 순두부·국밥·곰탕·해장국 (16곳)
 
 따뜻하고 덜 매운 국물 요리. 혼밥하기 좋아요.
 
@@ -160,8 +188,10 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 큰맘할매순대국 용문시장점 — 순대국, 뼈해장국 · 숙소 462m · [보기](https://www.diningcode.com/profile.php?rid=GBXsVZyx76rM)
 - 방가네국밥 용문시장 —  · 숙소 463m · [보기](https://www.diningcode.com/profile.php?rid=1RpyDi6F45DL)
 - 창성옥 본점 — 해장국, 뼈전골 · 숙소 466m · [보기](https://www.diningcode.com/profile.php?rid=rLGXhPfOnPdg)
+- 엄마의손맛소머리곰탕 용문시장 — 소머리국밥, 김치 · 숙소 502m · [보기](https://www.diningcode.com/profile.php?rid=smZ3vAzKV7ft)
+- 두원 용문시장 — 국밥, 미나리 · 숙소 572m · [보기](https://www.diningcode.com/profile.php?rid=bd91bAeqJ6ue)
 
-### 🍚 비빔밥·불고기·닭갈비·부대찌개 (9곳)
+### 🍚 비빔밥·불고기·닭갈비·부대찌개 (11곳)
 
 외국인에게 잘 알려진 대표 한식. 비빔밥은 채식으로 바꾸기 쉬워요.
 
@@ -174,6 +204,8 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 오근내3 닭갈비 효창공원역 — 닭갈비, 철판닭갈비 · 숙소 464m · [보기](https://www.diningcode.com/profile.php?rid=dN5FJbQdLboU)
 - 땅스부대찌개 용문시장점 — 부대찌개 · 숙소 486m · [보기](https://www.diningcode.com/profile.php?rid=ZLDCmAwc51jZ)
 - 담소재 — 비빔밥 · 숙소 493m · [보기](https://www.diningcode.com/profile.php?rid=wh5WG04moB9f)
+- 용문닭집 — 밀키트, 닭갈비 · 숙소 509m · [보기](https://www.diningcode.com/profile.php?rid=rG6LLAnA9o97)
+- 송스키친 용문시장 — 청국장, 돼지불고기 · 숙소 572m · [보기](https://www.diningcode.com/profile.php?rid=lNaJPo92LHDd)
 
 ### 🥢 냉면·막국수 (5곳)
 
@@ -185,7 +217,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 박명도봉평메밀막국수 2호점 — 코다리, 코다리찜 · 숙소 409m · [보기](https://www.diningcode.com/profile.php?rid=mrxrb7ITluDC)
 - 봉평메밀 용문시장 — 냉메밀, 메밀요리 · 숙소 497m · [보기](https://www.diningcode.com/profile.php?rid=tUUifJjGynkr)
 
-## 🐂 한우·소고기 (12곳)
+## 🐂 한우·소고기 (16곳)
 
 앱 카테고리: `bbq`
 
@@ -203,8 +235,12 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 박사네등심 남영역 | 한우, 등심 | 447m | 739m | 원효로90길 16 1층 박사네등심 | [보기](https://www.diningcode.com/profile.php?rid=3bgbRJMEOz1M) |
 | ☐ | 꽃보다소 용산점 | 소갈비 | 471m | 577m | 원효로58길 39 | [보기](https://www.diningcode.com/profile.php?rid=x27vVGuKegsA) |
 | ☐ | 용문한우곱창 | 곱창, 한우곱창 | 471m | 322m | 효창원로42길 15-1 | [보기](https://www.diningcode.com/profile.php?rid=uWL2eQEdoMYt) |
+| ☐ | 흑산도 홍어 용문시장 | 홍어삼합, 한우육회 | 533m | 452m | 원효로41길 58 | [보기](https://www.diningcode.com/profile.php?rid=7T2bsyYulPT6) |
+| ☐ | 세미네 | 갈비찜, 소갈비찜 | 534m | 779m | 원효로97길 3-22 | [보기](https://www.diningcode.com/profile.php?rid=SeH73DJP0n6e) |
+| ☐ | 정통우거지탕 용문시장 | 소갈비, LA갈비 | 540m | 537m | 새창로42길 8 | [보기](https://www.diningcode.com/profile.php?rid=pnBrdjn9BLDP) |
+| ☐ | 미애네밥상 | 차돌된장찌개, 한식 | 551m | 464m | 원효로41길 54 | [보기](https://www.diningcode.com/profile.php?rid=ehwCnudZvaXU) |
 
-## 🥩 고깃집 (돼지·갈비) (31곳)
+## 🥩 고깃집 (돼지·갈비) (40곳)
 
 앱 카테고리: `bbq`
 
@@ -241,8 +277,17 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 용문동 직화불족발 | 족발, 매운불족발 | 490m | 358m | 효창원로42길 24 | [보기](https://www.diningcode.com/profile.php?rid=Zu8rhwo4BT2d) |
 | ☐ | 만원족발 | 족발, 마늘족발 | 491m | 339m | 효창원로42길 18 1층 | [보기](https://www.diningcode.com/profile.php?rid=dVD5xI8pULSD) |
 | ☐ | 왕땅떡갈비 용문시장점 | 떡갈비, 빈대떡 | 491m | 339m | 효창원로42길 18 | [보기](https://www.diningcode.com/profile.php?rid=pbj6pGxKRLHT) |
+| ☐ | 용산대박집 용문시장 | 삼겹살, 고기집 | 509m | 437m | 원효로41길 62 1층 | [보기](https://www.diningcode.com/profile.php?rid=nlWPkIVvG1KQ) |
+| ☐ | 용문닭집 | 밀키트, 닭갈비 | 509m | 379m | 효창원로42길 38-14 1층 | [보기](https://www.diningcode.com/profile.php?rid=rG6LLAnA9o97) |
+| ☐ | 풍년숯불갈비 남영역 | 삼겹살, 양념게장 | 517m | 768m | 원효로 265-1 | [보기](https://www.diningcode.com/profile.php?rid=UJNe7wAlLH91) |
+| ☐ | 배달돼지 용산1호점 | 돼지고기, 고기 | 534m | 779m | 원효로97길 3-22 | [보기](https://www.diningcode.com/profile.php?rid=VY2FfUMQgvg0) |
+| ☐ | 명가양꼬치 남영역 | 양꼬치, 온면 | 556m | 792m | 원효로97길 9-1 | [보기](https://www.diningcode.com/profile.php?rid=m9YytJaCsEAw) |
+| ☐ | 홍돈 용문시장 | 삼겹살, 훈제 | 560m | 528m | 서울 용산구 원효로2가 93-3 | [보기](https://www.diningcode.com/profile.php?rid=lKvGhTggYTNB) |
+| ☐ | 송스키친 용문시장 | 청국장, 돼지불고기 | 572m | 543m | 원효로48길 11-4 1층 | [보기](https://www.diningcode.com/profile.php?rid=lNaJPo92LHDd) |
+| ☐ | 가마솥순대국 용문시장 | 백반, 고기집 | 586m | 548m | 새창로45길 4 | [보기](https://www.diningcode.com/profile.php?rid=iw54mgVcleAc) |
+| ☐ | 호남식당 | 청국장, 생삼겹살 | 588m | 555m | 원효로48길 13 | [보기](https://www.diningcode.com/profile.php?rid=qZgDBTIfn1dx) |
 
-## 🍗 치킨 (23곳)
+## 🍗 치킨 (29곳)
 
 앱 카테고리: `(새 카테고리?) / bar`
 
@@ -271,8 +316,14 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 보스바베큐 용문시장 | 요리주점, 치킨 | 478m | 575m | 원효로58길 40 보스바베큐 | [보기](https://www.diningcode.com/profile.php?rid=umbIlLfTmlrG) |
 | ☐ | 용문통닭 용문시장 | 치킨, 닭강정 | 489m | 304m | 효창원로40길 3-8 1층 | [보기](https://www.diningcode.com/profile.php?rid=4JjpxGDiqmHr) |
 | ☐ | 21세기 정통생맥주 용문시장 | 호프집, 옛날치킨 | 491m | 480m | 원효로 166 원효아파트 | [보기](https://www.diningcode.com/profile.php?rid=hiD875qnPacL) |
+| ☐ | 훌랄라참숯바베큐치킨 용산원효점 | 치킨, 바베큐치킨 | 501m | 475m | 원효로 166 104호, 105호 | [보기](https://www.diningcode.com/profile.php?rid=acoKAxTeK1p4) |
+| ☐ | 노랑통닭 용산용문동점 | 치킨, 고기 | 505m | 230m | 서울 용산구 새창로20길 10 1층 | [보기](https://www.diningcode.com/profile.php?rid=2pBYwFn0xIYg) |
+| ☐ | 둘둘치킨 전자상가점 | 후라이드, 옛날치킨 | 506m | 551m | 새창로45길 3 | [보기](https://www.diningcode.com/profile.php?rid=Vmx2lVrWpoOO) |
+| ☐ | 맥시칸치킨 도원점 | 닭강정, 치킨 | 511m | 207m | 새창로 90-4 | [보기](https://www.diningcode.com/profile.php?rid=vMbrJKAMwZda) |
+| ☐ | 호프광장 용문시장 | 호프집, 옛날통닭 | 543m | 462m | 원효로41길 56 2층 | [보기](https://www.diningcode.com/profile.php?rid=wzuYPReBSnGx) |
+| ☐ | BHC치킨 효창공원역점 | 치킨 | 595m | 292m | 새창로12길 11-7 (도원동, 제일아파트) | [보기](https://www.diningcode.com/profile.php?rid=3Thz0YNoyV6r) |
 
-## 🥟 중식 (9곳)
+## 🥟 중식 (18곳)
 
 앱 카테고리: `(새 카테고리?) / noodle`
 
@@ -287,8 +338,17 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 효창동 짜장우동 효창공원역 | 짜장면 | 364m | 56m | 백범로 283 | [보기](https://www.diningcode.com/profile.php?rid=bFmnE9tpHe6p) |
 | ☐ | 곽선생왕만두 용문동점 | 만두 | 444m | 239m | 효창원로 101-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=g8O2homU3ldL) |
 | ☐ | 홍콩반점0410&홍콩분식 용산문배점 | 탕수육, 짜장면 | 479m | 786m | 백범로90길 38 2층 | [보기](https://www.diningcode.com/profile.php?rid=SrAAKskFUObm) |
+| ☐ | 천궁 용문시장 | 짜장면, 중국집 | 503m | 589m | 새창로49길 17 1층 천궁 | [보기](https://www.diningcode.com/profile.php?rid=8dCTGdcVrRNL) |
+| ☐ | 명성각 | 중식당, 중식 | 503m | 368m | 효창원로40길 24 | [보기](https://www.diningcode.com/profile.php?rid=MV29tYcwuiAC) |
+| ☐ | 비전만두 | 꽈배기, 사라다빵 | 504m | 390m | 효창원로42길 30 | [보기](https://www.diningcode.com/profile.php?rid=4fVYSpa8BJE5) |
+| ☐ | 동해루 용문시장 | 짜장면, 중국집 | 505m | 550m | 새창로45길 3 | [보기](https://www.diningcode.com/profile.php?rid=5l9HQoLY82iA) |
+| ☐ | 두찜 용문시장 | 찜닭, 마라 | 514m | 563m | 새창로45길 4 | [보기](https://www.diningcode.com/profile.php?rid=P4gbcvQbqkrc) |
+| ☐ | 용산 샤브샤브 삼각지 | 샤브샤브, 마라 | 518m | 755m | 원효로 216 근린상가동 지하1층 B107호 | [보기](https://www.diningcode.com/profile.php?rid=zYveRZkigVUr) |
+| ☐ | 신흥각 용문시장 | 짜장면, 동태탕 | 547m | 460m | 원효로41길 54 | [보기](https://www.diningcode.com/profile.php?rid=03cg1vLPFraX) |
+| ☐ | 하오연 옛날짜장 남영역 | 짜장면 | 562m | 800m | 원효로97길 9 | [보기](https://www.diningcode.com/profile.php?rid=UIVFjmR7duJJ) |
+| ☐ | 빨강떡볶이 용산역 | 떡볶이, 짜장 | 582m | 626m | 새창로 156 | [보기](https://www.diningcode.com/profile.php?rid=O4vN6F8k9C8V) |
 
-## 🍶 술집 (53곳)
+## 🍶 술집 (63곳)
 
 앱 카테고리: `bar`
 
@@ -347,8 +407,18 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 니꼬내꼬 감성포차 | 포장마차, 포차 | 494m | 486m | 원효로 166 | [보기](https://www.diningcode.com/profile.php?rid=jzksKilS51Gs) |
 | ☐ | 팔레트비 삼각지 | 와인바 | 495m | 788m | 백범로90다길 12 202동 1층 105호 | [보기](https://www.diningcode.com/profile.php?rid=St0lhdBDat2s) |
 | ☐ | 동표골뱅이 용문시장 | 골뱅이, 술집 | 496m | 545m | 새창로45길 5 | [보기](https://www.diningcode.com/profile.php?rid=9ZfHeg9xKaBT) |
+| ☐ | 후떡 용문시장 | 술집, 백반 | 501m | 306m | 효창원로40길 3-3 1층(용문동) | [보기](https://www.diningcode.com/profile.php?rid=BJy1lGFRD6Xe) |
+| ☐ | 왕노가리포차 용문시장 | 호프집, 노가리 | 504m | 503m | 새창로 144 | [보기](https://www.diningcode.com/profile.php?rid=FZkm1FvUfvbf) |
+| ☐ | 이모네포차리 용문시장 | 포차 | 513m | 427m | 원효로41길 59 | [보기](https://www.diningcode.com/profile.php?rid=6rrz2lOVSYBc) |
+| ☐ | 용문 트로께 용문시장 | 와인바 | 522m | 248m | 새창로14길 30 | [보기](https://www.diningcode.com/profile.php?rid=J7zdRxY3Cydd) |
+| ☐ | 포차용산스타일 용문시장 | 포차, 오돌뼈 | 527m | 568m | 새창로 149 1층 | [보기](https://www.diningcode.com/profile.php?rid=R3ntE1HyiHAR) |
+| ☐ | 용문포차 용문시장 | 포차 | 533m | 449m | 원효로41길 58 1층 | [보기](https://www.diningcode.com/profile.php?rid=VGCP5gPNAMz1) |
+| ☐ | 호사가 효창공원앞역 | 칵테일, 칵테일바 | 538m | 253m | 새창로14길 22 지하층 | [보기](https://www.diningcode.com/profile.php?rid=9tmA5yVFszdd) |
+| ☐ | 스푸 | 이자카야, 스프카레 | 538m | 786m | 원효로 269 1층 | [보기](https://www.diningcode.com/profile.php?rid=2bOSYK192MPk) |
+| ☐ | 야키산하 | 이자카야 | 563m | 804m | 원효로97길 5 1층 | [보기](https://www.diningcode.com/profile.php?rid=1M339Isku9sm) |
+| ☐ | 봉구비어 남영역점 | 맥주, 생맥주 | 579m | 824m | 원효로 273-1 | [보기](https://www.diningcode.com/profile.php?rid=lW9vGpVeI77n) |
 
-## ☕ 카페·디저트 (87곳)
+## ☕ 카페·디저트 (103곳)
 
 앱 카테고리: `cafe`
 
@@ -441,8 +511,24 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 매머드익스프레스 용산용문시장점 | 커피, 카페 | 488m | 331m | 효창원로42길 16 | [보기](https://www.diningcode.com/profile.php?rid=I7SuJr12p2CH) |
 | ☐ | 스너그 용산점 | 커피 | 495m | 196m | 새창로 92 1층 | [보기](https://www.diningcode.com/profile.php?rid=iUktC6pLuOMJ) |
 | ☐ | 이로 남영역 | 카페, 디저트 | 500m | 754m | 원효로 263 2층 | [보기](https://www.diningcode.com/profile.php?rid=KvJodxSkUeeA) |
+| ☐ | 라운지엑스24h 용산더프라임점 | 카페, 무인카페 | 503m | 778m | 원효로90길 11 업무동 1층 | [보기](https://www.diningcode.com/profile.php?rid=mjep76MB0Jhh) |
+| ☐ | mtl 효창점 | 커피, 카페 | 504m | 297m | 효창원로69길 25 1층 mtl | [보기](https://www.diningcode.com/profile.php?rid=xUwBJGkULuEq) |
+| ☐ | 로로카페 청파로점 | 카페, 빵 | 517m | 733m | 원효로97길 25 1층 | [보기](https://www.diningcode.com/profile.php?rid=V3aZ7gYR1pBl) |
+| ☐ | 카페, 늘 그렇듯 | 카페 | 534m | 819m | 원효로90길 11 | [보기](https://www.diningcode.com/profile.php?rid=cimBA6SXusPc) |
+| ☐ | 텐퍼센트커피 용산남영점 | 커피, 카페 | 538m | 765m | 원효로97길 19 1층 | [보기](https://www.diningcode.com/profile.php?rid=DHV2LHBRROFc) |
+| ☐ | 카페공감 | 카페 | 542m | 326m | 효창원로 91 | [보기](https://www.diningcode.com/profile.php?rid=h73DjzrPXOS7) |
+| ☐ | 몽소 | 베이커리, 카페 | 548m | 808m | 원효로 268 103호 | [보기](https://www.diningcode.com/profile.php?rid=c2F0gO52vNbp) |
+| ☐ | 말라카이트 남영역 | 젤라또, 무화과 | 549m | 782m | 원효로97길 13 1층 말라카이트 젤라또샵 | [보기](https://www.diningcode.com/profile.php?rid=g5sU0j8jq9xX) |
+| ☐ | 커들위드커피 효창공원앞역 | 카페, 디저트 | 552m | 259m | 새창로14길 16 1층, 2층 | [보기](https://www.diningcode.com/profile.php?rid=fQyeMaAF139i) |
+| ☐ | 카페 맑음 남영역 | 카페, 수박주스 | 562m | 821m | 원효로 268 | [보기](https://www.diningcode.com/profile.php?rid=2YzzZ2SZ5ckL) |
+| ☐ | 카페 미우 효창공원앞역 | 핸드드립, 커피 | 563m | 257m | 새창로14길 7 1층 | [보기](https://www.diningcode.com/profile.php?rid=RAaiR8r5vPOy) |
+| ☐ | 브레드 읍읍 | 카페, 휘낭시에 | 567m | 264m | 새창로14길 8 | [보기](https://www.diningcode.com/profile.php?rid=HeSJoelR8W17) |
+| ☐ | 더쉐어31 용문시장 | 카페, 수제청 | 570m | 476m | 원효로41길 50 | [보기](https://www.diningcode.com/profile.php?rid=YNouoN2vhzSf) |
+| ☐ | 유틸리티 커피 로스터스 | 핸드드립, 커피 | 582m | 533m | 원효로48길 7 1층 | [보기](https://www.diningcode.com/profile.php?rid=XzPmWawwht4z) |
+| ☐ | 예뜨락카페 | 카페 | 590m | 291m | 새창로12길 11-18 | [보기](https://www.diningcode.com/profile.php?rid=7lfO9pIfXgly) |
+| ☐ | 블랙인썸니아 | 카페 | 590m | 565m | 원효로48길 17 1층 | [보기](https://www.diningcode.com/profile.php?rid=YEB00fO4ylHd) |
 
-## 🍢 분식 (18곳)
+## 🍢 분식 (28곳)
 
 앱 카테고리: `snack`
 
@@ -466,8 +552,18 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 큰손원조할매순대국 용산남영점 | 순대국 | 451m | 711m | 원효로 259 | [보기](https://www.diningcode.com/profile.php?rid=Z6mL1OJr0Vpk) |
 | ☐ | 부산어묵 용문시장 | 떡볶이, 어묵 | 487m | 309m | 효창원로42길 6 | [보기](https://www.diningcode.com/profile.php?rid=LhphyejiFgDa) |
 | ☐ | 토마토분식 | 종합분식, 분식 | 495m | 265m | 새창로14길 46 | [보기](https://www.diningcode.com/profile.php?rid=7s65eujyzdSF) |
+| ☐ | 용문오뎅 | 떡볶이, 오뎅떡볶이 | 502m | 390m | 효창원로42길 30 1층 | [보기](https://www.diningcode.com/profile.php?rid=KPbnldbYc4SV) |
+| ☐ | 미미떡볶이 | 떡볶이, 쫄면 | 507m | 362m | 효창원로40길 20 | [보기](https://www.diningcode.com/profile.php?rid=mqj63nQm05Jv) |
+| ☐ | 공꼬마김밥 용문시장 | 김밥, 떡볶이 | 508m | 314m | 효창원로40길 3 1층 101호 | [보기](https://www.diningcode.com/profile.php?rid=5hnEZIzf9eck) |
+| ☐ | SNS무인분식 서울용산점 | 라면, 컵라면 | 521m | 216m | 새창로 86-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=rPa6cFfn1z5m) |
+| ☐ | 맛나분식 남영역 | 해물볶음밥, 분식 | 529m | 751m | 원효로97길 21 1층 | [보기](https://www.diningcode.com/profile.php?rid=PNRvLKUi195L) |
+| ☐ | 까치한식분식 남영역 | 분식, 해장라면 | 535m | 785m | 원효로 267-1 | [보기](https://www.diningcode.com/profile.php?rid=ffuzAWdo6U59) |
+| ☐ | 정가네왕김밥 용문점 | 김밥, 참치김밥 | 539m | 323m | 효창원로 91 1층 정가네왕김밥 | [보기](https://www.diningcode.com/profile.php?rid=ExyKwxsEk89s) |
+| ☐ | 이조순대국 용문시장 | 순대국, 순대 | 553m | 465m | 원효로41길 54 이조순대국 | [보기](https://www.diningcode.com/profile.php?rid=GVYHvdIFhGB8) |
+| ☐ | 본래순대 원효로점 | 순대국, 순대볶음 | 573m | 486m | 원효로 153-4 1층 | [보기](https://www.diningcode.com/profile.php?rid=a8qFV7h3RcgZ) |
+| ☐ | 강타순살떡볶이 | 종합분식, 분식 | 596m | 292m | 새창로12길 11-7 | [보기](https://www.diningcode.com/profile.php?rid=YyZHrkZWgneV) |
 
-## 🍜 국수·국밥·탕 (30곳)
+## 🍜 국수·국밥·탕 (36곳)
 
 앱 카테고리: `noodle`
 
@@ -503,8 +599,14 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 삽다리순대국 용문시장 | 순대국 | 481m | 380m | 효창원로42길 31 | [보기](https://www.diningcode.com/profile.php?rid=Q6U66p1nQ1b9) |
 | ☐ | 용문동 팥칼국수 용문시장 | 팥죽, 팥칼국수 | 481m | 390m | 효창원로42길 35 1층 | [보기](https://www.diningcode.com/profile.php?rid=NmxdxQL2V9SK) |
 | ☐ | 봉평메밀 용문시장 | 냉메밀, 메밀요리 | 497m | 310m | 효창원로40길 3-6 봉평메밀 | [보기](https://www.diningcode.com/profile.php?rid=tUUifJjGynkr) |
+| ☐ | 엄마의손맛소머리곰탕 용문시장 | 소머리국밥, 김치 | 502m | 389m | 효창원로42길 30 엄마의손맛소머리곰탕 | [보기](https://www.diningcode.com/profile.php?rid=smZ3vAzKV7ft) |
+| ☐ | 장터뼈감자탕 | 감자탕, 한식 | 509m | 387m | 효창원로42길 30 | [보기](https://www.diningcode.com/profile.php?rid=p3aBE1tEmuFq) |
+| ☐ | 솔향기칼국수수제비 | 칼국수, 수제비 | 524m | 333m | 효창원로42길 38-36 | [보기](https://www.diningcode.com/profile.php?rid=0dMOaubdtT99) |
+| ☐ | 선린소머리탕 | 소머리탕, 백반집 | 529m | 772m | 원효로97길 3-16 | [보기](https://www.diningcode.com/profile.php?rid=2roBiN0G8zVY) |
+| ☐ | 손맛칼국수 효창공원앞역 | 칼국수, 삼겹살 | 566m | 266m | 새창로12길 11-15 103호 | [보기](https://www.diningcode.com/profile.php?rid=6XTFlMwVXEGk) |
+| ☐ | 두원 용문시장 | 국밥, 미나리 | 572m | 537m | 원효로48길 11-3 | [보기](https://www.diningcode.com/profile.php?rid=bd91bAeqJ6ue) |
 
-## 🍚 한식 (38곳)
+## 🍚 한식 (43곳)
 
 앱 카테고리: `korean`
 
@@ -548,8 +650,13 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 땅스부대찌개 용문시장점 | 부대찌개 | 486m | 317m | 효창원로42길 12 1층 | [보기](https://www.diningcode.com/profile.php?rid=ZLDCmAwc51jZ) |
 | ☐ | 담소재 | 비빔밥 | 493m | 216m | 새창로20길 6 | [보기](https://www.diningcode.com/profile.php?rid=wh5WG04moB9f) |
 | ☐ | 영하네식당 | 한식 | 499m | 333m | 효창원로40길 13 1층 | [보기](https://www.diningcode.com/profile.php?rid=8HPF8yFAEYzq) |
+| ☐ | 짱 도시락 | 도시락 | 535m | 254m | 새창로14길 24 1층(용문동) | [보기](https://www.diningcode.com/profile.php?rid=zgdDPjN2SDXl) |
+| ☐ | 통큰낙곱새 용문시장 | 한식 | 535m | 254m | 새창로14길 24 1층(용문동) | [보기](https://www.diningcode.com/profile.php?rid=hysunTj3tGgj) |
+| ☐ | 미소식당 용문시장 | 백반, 백반집 | 572m | 481m | 원효로 153-6 | [보기](https://www.diningcode.com/profile.php?rid=tKNaiogPYIvs) |
+| ☐ | 팔도강산 | 백반, 가정식백반 | 572m | 537m | 원효로48길 11-3 | [보기](https://www.diningcode.com/profile.php?rid=iCzbsU8FXpME) |
+| ☐ | 시드니참치 | 생선회, 참치회 | 588m | 279m | 새창로14길 4 | [보기](https://www.diningcode.com/profile.php?rid=wI8U2bFC800u) |
 
-## 🍽️ 기타 (양식·일식·아시안 등) (35곳)
+## 🍽️ 기타 (양식·일식·아시안 등) (45곳)
 
 앱 카테고리: `?`
 
@@ -590,98 +697,23 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 프랭크버거 용문시장점 | 버거, 수제햄버거 | 487m | 248m | 새창로14길 43 1층 | [보기](https://www.diningcode.com/profile.php?rid=rhraSuArnyAq) |
 | ☐ | 작은도쿄 남영역 | 텐동, 온천계란 | 497m | 736m | 원효로90길 11 | [보기](https://www.diningcode.com/profile.php?rid=ISBrpLiBAaPx) |
 | ☐ | 마루연 용산용문시장본점 | 연잎밥, 한상차림 | 499m | 332m | 효창원로40길 13 1층 | [보기](https://www.diningcode.com/profile.php?rid=fXKGMYGg5JeF) |
+| ☐ | 용문시장 이모네빈대떡 | 빈대떡, 모듬전 | 502m | 323m | 효창원로40길 9 | [보기](https://www.diningcode.com/profile.php?rid=Tqj7Nt8qaNAX) |
+| ☐ | 금자네회포장 숙성회&활어회 | 횟집, 숙성회 | 508m | 395m | 효창원로42길 30 1층 | [보기](https://www.diningcode.com/profile.php?rid=GZISfOlmFKDP) |
+| ☐ | 찌갠쭈꾸미 용문시장 | 쭈꾸미 | 513m | 436m | 원효로41길 60 1층 | [보기](https://www.diningcode.com/profile.php?rid=6zWUnD0ISPLx) |
+| ☐ | 점순이호떡 용문시장점 | 호떡, 씨앗호떡 | 524m | 335m | 효창원로42길 38-36 | [보기](https://www.diningcode.com/profile.php?rid=UvwHGv6ffxmk) |
+| ☐ | 도만다 남영역 | 피자 | 529m | 779m | 원효로 267 1층 | [보기](https://www.diningcode.com/profile.php?rid=W4cECwJ7lR1G) |
+| ☐ | 밥구정로데오 용산점 |  | 532m | 782m | 원효로 267-1 2층 | [보기](https://www.diningcode.com/profile.php?rid=yhbbWQmo83Jh) |
+| ☐ | 백만석횟집 | 횟집, 일식 | 534m | 779m | 원효로97길 3-22 1층 | [보기](https://www.diningcode.com/profile.php?rid=ZxVdVZMqOEE2) |
+| ☐ | 아비꼬 용산더프라임점 | 카레, 커리 | 538m | 821m | 원효로90길 11 주거동 104호 | [보기](https://www.diningcode.com/profile.php?rid=MVsMftTXzJYH) |
+| ☐ | 다래횟집 남영역 | 횟집, 물회 | 544m | 805m | 원효로 268 | [보기](https://www.diningcode.com/profile.php?rid=MCbdeWXceBNM) |
+| ☐ | 큰집빈대떡 남영역 | 전집, 갑오징어 | 575m | 819m | 원효로97길 3 | [보기](https://www.diningcode.com/profile.php?rid=cQIdhBSzy4Kl) |
 
-## 숙소 500m 밖 (참고용, 121곳)
+## 숙소 600m 밖 (참고용, 36곳)
 
 앱 범위 밖이에요. 정말 좋은 곳이 있으면 반경을 넓힐지 정할 때 참고해요.
 
 | 이름 | 음식 | 숙소 | 링크 |
 | --- | --- | --- | --- |
-| 후떡 용문시장 | 술집, 백반 | 501m | [보기](https://www.diningcode.com/profile.php?rid=BJy1lGFRD6Xe) |
-| 훌랄라참숯바베큐치킨 용산원효점 | 치킨, 바베큐치킨 | 501m | [보기](https://www.diningcode.com/profile.php?rid=acoKAxTeK1p4) |
-| 엄마의손맛소머리곰탕 용문시장 | 소머리국밥, 김치 | 502m | [보기](https://www.diningcode.com/profile.php?rid=smZ3vAzKV7ft) |
-| 용문시장 이모네빈대떡 | 빈대떡, 모듬전 | 502m | [보기](https://www.diningcode.com/profile.php?rid=Tqj7Nt8qaNAX) |
-| 용문오뎅 | 떡볶이, 오뎅떡볶이 | 502m | [보기](https://www.diningcode.com/profile.php?rid=KPbnldbYc4SV) |
-| 천궁 용문시장 | 짜장면, 중국집 | 503m | [보기](https://www.diningcode.com/profile.php?rid=8dCTGdcVrRNL) |
-| 라운지엑스24h 용산더프라임점 | 카페, 무인카페 | 503m | [보기](https://www.diningcode.com/profile.php?rid=mjep76MB0Jhh) |
-| 명성각 | 중식당, 중식 | 503m | [보기](https://www.diningcode.com/profile.php?rid=MV29tYcwuiAC) |
-| mtl 효창점 | 커피, 카페 | 504m | [보기](https://www.diningcode.com/profile.php?rid=xUwBJGkULuEq) |
-| 왕노가리포차 용문시장 | 호프집, 노가리 | 504m | [보기](https://www.diningcode.com/profile.php?rid=FZkm1FvUfvbf) |
-| 비전만두 | 꽈배기, 사라다빵 | 504m | [보기](https://www.diningcode.com/profile.php?rid=4fVYSpa8BJE5) |
-| 노랑통닭 용산용문동점 | 치킨, 고기 | 505m | [보기](https://www.diningcode.com/profile.php?rid=2pBYwFn0xIYg) |
-| 동해루 용문시장 | 짜장면, 중국집 | 505m | [보기](https://www.diningcode.com/profile.php?rid=5l9HQoLY82iA) |
-| 둘둘치킨 전자상가점 | 후라이드, 옛날치킨 | 506m | [보기](https://www.diningcode.com/profile.php?rid=Vmx2lVrWpoOO) |
-| 미미떡볶이 | 떡볶이, 쫄면 | 507m | [보기](https://www.diningcode.com/profile.php?rid=mqj63nQm05Jv) |
-| 공꼬마김밥 용문시장 | 김밥, 떡볶이 | 508m | [보기](https://www.diningcode.com/profile.php?rid=5hnEZIzf9eck) |
-| 금자네회포장 숙성회&활어회 | 횟집, 숙성회 | 508m | [보기](https://www.diningcode.com/profile.php?rid=GZISfOlmFKDP) |
-| 용산대박집 용문시장 | 삼겹살, 고기집 | 509m | [보기](https://www.diningcode.com/profile.php?rid=nlWPkIVvG1KQ) |
-| 용문닭집 | 밀키트, 닭갈비 | 509m | [보기](https://www.diningcode.com/profile.php?rid=rG6LLAnA9o97) |
-| 장터뼈감자탕 | 감자탕, 한식 | 509m | [보기](https://www.diningcode.com/profile.php?rid=p3aBE1tEmuFq) |
-| 맥시칸치킨 도원점 | 닭강정, 치킨 | 511m | [보기](https://www.diningcode.com/profile.php?rid=vMbrJKAMwZda) |
-| 찌갠쭈꾸미 용문시장 | 쭈꾸미 | 513m | [보기](https://www.diningcode.com/profile.php?rid=6zWUnD0ISPLx) |
-| 이모네포차리 용문시장 | 포차 | 513m | [보기](https://www.diningcode.com/profile.php?rid=6rrz2lOVSYBc) |
-| 두찜 용문시장 | 찜닭, 마라 | 514m | [보기](https://www.diningcode.com/profile.php?rid=P4gbcvQbqkrc) |
-| 풍년숯불갈비 남영역 | 삼겹살, 양념게장 | 517m | [보기](https://www.diningcode.com/profile.php?rid=UJNe7wAlLH91) |
-| 로로카페 청파로점 | 카페, 빵 | 517m | [보기](https://www.diningcode.com/profile.php?rid=V3aZ7gYR1pBl) |
-| 용산 샤브샤브 삼각지 | 샤브샤브, 마라 | 518m | [보기](https://www.diningcode.com/profile.php?rid=zYveRZkigVUr) |
-| SNS무인분식 서울용산점 | 라면, 컵라면 | 521m | [보기](https://www.diningcode.com/profile.php?rid=rPa6cFfn1z5m) |
-| 용문 트로께 용문시장 | 와인바 | 522m | [보기](https://www.diningcode.com/profile.php?rid=J7zdRxY3Cydd) |
-| 점순이호떡 용문시장점 | 호떡, 씨앗호떡 | 524m | [보기](https://www.diningcode.com/profile.php?rid=UvwHGv6ffxmk) |
-| 솔향기칼국수수제비 | 칼국수, 수제비 | 524m | [보기](https://www.diningcode.com/profile.php?rid=0dMOaubdtT99) |
-| 포차용산스타일 용문시장 | 포차, 오돌뼈 | 527m | [보기](https://www.diningcode.com/profile.php?rid=R3ntE1HyiHAR) |
-| 도만다 남영역 | 피자 | 529m | [보기](https://www.diningcode.com/profile.php?rid=W4cECwJ7lR1G) |
-| 맛나분식 남영역 | 해물볶음밥, 분식 | 529m | [보기](https://www.diningcode.com/profile.php?rid=PNRvLKUi195L) |
-| 선린소머리탕 | 소머리탕, 백반집 | 529m | [보기](https://www.diningcode.com/profile.php?rid=2roBiN0G8zVY) |
-| 밥구정로데오 용산점 |  | 532m | [보기](https://www.diningcode.com/profile.php?rid=yhbbWQmo83Jh) |
-| 용문포차 용문시장 | 포차 | 533m | [보기](https://www.diningcode.com/profile.php?rid=VGCP5gPNAMz1) |
-| 흑산도 홍어 용문시장 | 홍어삼합, 한우육회 | 533m | [보기](https://www.diningcode.com/profile.php?rid=7T2bsyYulPT6) |
-| 세미네 | 갈비찜, 소갈비찜 | 534m | [보기](https://www.diningcode.com/profile.php?rid=SeH73DJP0n6e) |
-| 백만석횟집 | 횟집, 일식 | 534m | [보기](https://www.diningcode.com/profile.php?rid=ZxVdVZMqOEE2) |
-| 카페, 늘 그렇듯 | 카페 | 534m | [보기](https://www.diningcode.com/profile.php?rid=cimBA6SXusPc) |
-| 배달돼지 용산1호점 | 돼지고기, 고기 | 534m | [보기](https://www.diningcode.com/profile.php?rid=VY2FfUMQgvg0) |
-| 짱 도시락 | 도시락 | 535m | [보기](https://www.diningcode.com/profile.php?rid=zgdDPjN2SDXl) |
-| 통큰낙곱새 용문시장 | 한식 | 535m | [보기](https://www.diningcode.com/profile.php?rid=hysunTj3tGgj) |
-| 까치한식분식 남영역 | 분식, 해장라면 | 535m | [보기](https://www.diningcode.com/profile.php?rid=ffuzAWdo6U59) |
-| 호사가 효창공원앞역 | 칵테일, 칵테일바 | 538m | [보기](https://www.diningcode.com/profile.php?rid=9tmA5yVFszdd) |
-| 텐퍼센트커피 용산남영점 | 커피, 카페 | 538m | [보기](https://www.diningcode.com/profile.php?rid=DHV2LHBRROFc) |
-| 스푸 | 이자카야, 스프카레 | 538m | [보기](https://www.diningcode.com/profile.php?rid=2bOSYK192MPk) |
-| 아비꼬 용산더프라임점 | 카레, 커리 | 538m | [보기](https://www.diningcode.com/profile.php?rid=MVsMftTXzJYH) |
-| 정가네왕김밥 용문점 | 김밥, 참치김밥 | 539m | [보기](https://www.diningcode.com/profile.php?rid=ExyKwxsEk89s) |
-| 정통우거지탕 용문시장 | 소갈비, LA갈비 | 540m | [보기](https://www.diningcode.com/profile.php?rid=pnBrdjn9BLDP) |
-| 카페공감 | 카페 | 542m | [보기](https://www.diningcode.com/profile.php?rid=h73DjzrPXOS7) |
-| 호프광장 용문시장 | 호프집, 옛날통닭 | 543m | [보기](https://www.diningcode.com/profile.php?rid=wzuYPReBSnGx) |
-| 다래횟집 남영역 | 횟집, 물회 | 544m | [보기](https://www.diningcode.com/profile.php?rid=MCbdeWXceBNM) |
-| 신흥각 용문시장 | 짜장면, 동태탕 | 547m | [보기](https://www.diningcode.com/profile.php?rid=03cg1vLPFraX) |
-| 몽소 | 베이커리, 카페 | 548m | [보기](https://www.diningcode.com/profile.php?rid=c2F0gO52vNbp) |
-| 말라카이트 남영역 | 젤라또, 무화과 | 549m | [보기](https://www.diningcode.com/profile.php?rid=g5sU0j8jq9xX) |
-| 미애네밥상 | 차돌된장찌개, 한식 | 551m | [보기](https://www.diningcode.com/profile.php?rid=ehwCnudZvaXU) |
-| 커들위드커피 효창공원앞역 | 카페, 디저트 | 552m | [보기](https://www.diningcode.com/profile.php?rid=fQyeMaAF139i) |
-| 이조순대국 용문시장 | 순대국, 순대 | 553m | [보기](https://www.diningcode.com/profile.php?rid=GVYHvdIFhGB8) |
-| 명가양꼬치 남영역 | 양꼬치, 온면 | 556m | [보기](https://www.diningcode.com/profile.php?rid=m9YytJaCsEAw) |
-| 홍돈 용문시장 | 삼겹살, 훈제 | 560m | [보기](https://www.diningcode.com/profile.php?rid=lKvGhTggYTNB) |
-| 카페 맑음 남영역 | 카페, 수박주스 | 562m | [보기](https://www.diningcode.com/profile.php?rid=2YzzZ2SZ5ckL) |
-| 하오연 옛날짜장 남영역 | 짜장면 | 562m | [보기](https://www.diningcode.com/profile.php?rid=UIVFjmR7duJJ) |
-| 카페 미우 효창공원앞역 | 핸드드립, 커피 | 563m | [보기](https://www.diningcode.com/profile.php?rid=RAaiR8r5vPOy) |
-| 야키산하 | 이자카야 | 563m | [보기](https://www.diningcode.com/profile.php?rid=1M339Isku9sm) |
-| 손맛칼국수 효창공원앞역 | 칼국수, 삼겹살 | 566m | [보기](https://www.diningcode.com/profile.php?rid=6XTFlMwVXEGk) |
-| 브레드 읍읍 | 카페, 휘낭시에 | 567m | [보기](https://www.diningcode.com/profile.php?rid=HeSJoelR8W17) |
-| 더쉐어31 용문시장 | 카페, 수제청 | 570m | [보기](https://www.diningcode.com/profile.php?rid=YNouoN2vhzSf) |
-| 두원 용문시장 | 국밥, 미나리 | 572m | [보기](https://www.diningcode.com/profile.php?rid=bd91bAeqJ6ue) |
-| 미소식당 용문시장 | 백반, 백반집 | 572m | [보기](https://www.diningcode.com/profile.php?rid=tKNaiogPYIvs) |
-| 송스키친 용문시장 | 청국장, 돼지불고기 | 572m | [보기](https://www.diningcode.com/profile.php?rid=lNaJPo92LHDd) |
-| 팔도강산 | 백반, 가정식백반 | 572m | [보기](https://www.diningcode.com/profile.php?rid=iCzbsU8FXpME) |
-| 본래순대 원효로점 | 순대국, 순대볶음 | 573m | [보기](https://www.diningcode.com/profile.php?rid=a8qFV7h3RcgZ) |
-| 큰집빈대떡 남영역 | 전집, 갑오징어 | 575m | [보기](https://www.diningcode.com/profile.php?rid=cQIdhBSzy4Kl) |
-| 봉구비어 남영역점 | 맥주, 생맥주 | 579m | [보기](https://www.diningcode.com/profile.php?rid=lW9vGpVeI77n) |
-| 빨강떡볶이 용산역 | 떡볶이, 짜장 | 582m | [보기](https://www.diningcode.com/profile.php?rid=O4vN6F8k9C8V) |
-| 유틸리티 커피 로스터스 | 핸드드립, 커피 | 582m | [보기](https://www.diningcode.com/profile.php?rid=XzPmWawwht4z) |
-| 가마솥순대국 용문시장 | 백반, 고기집 | 586m | [보기](https://www.diningcode.com/profile.php?rid=iw54mgVcleAc) |
-| 호남식당 | 청국장, 생삼겹살 | 588m | [보기](https://www.diningcode.com/profile.php?rid=qZgDBTIfn1dx) |
-| 시드니참치 | 생선회, 참치회 | 588m | [보기](https://www.diningcode.com/profile.php?rid=wI8U2bFC800u) |
-| 예뜨락카페 | 카페 | 590m | [보기](https://www.diningcode.com/profile.php?rid=7lfO9pIfXgly) |
-| 블랙인썸니아 | 카페 | 590m | [보기](https://www.diningcode.com/profile.php?rid=YEB00fO4ylHd) |
-| BHC치킨 효창공원역점 | 치킨 | 595m | [보기](https://www.diningcode.com/profile.php?rid=3Thz0YNoyV6r) |
-| 강타순살떡볶이 | 종합분식, 분식 | 596m | [보기](https://www.diningcode.com/profile.php?rid=YyZHrkZWgneV) |
 | 리터브 효창공원앞역 | 베이커리, 술집 | 602m | [보기](https://www.diningcode.com/profile.php?rid=529LB1twk66R) |
 | 리틀갱스터 효창공원앞역 | 비건식당 | 609m | [보기](https://www.diningcode.com/profile.php?rid=8YZyPLljSYPy) |
 | 몰입 용산 | 와인바, 유러피안 | 624m | [보기](https://www.diningcode.com/profile.php?rid=hJfA05muXTc0) |

@@ -10,7 +10,7 @@ export function isLocale(value: string): value is Locale {
 
 const en = {
   siteTitle: "Hyochang Eats",
-  siteTagline: "Local Korean food, cafes and bars within a 7-minute walk of Hyochang Park Stay.",
+  siteTagline: "Local Korean food, cafes and bars within an 8-minute walk of Hyochang Park Stay.",
   switchLabel: "한국어",
   all: "All",
   categories: {
@@ -53,7 +53,7 @@ export type Dictionary = typeof en;
 
 const ko: Dictionary = {
   siteTitle: "효창 맛집",
-  siteTagline: "효창공원 스테이에서 걸어서 7분 안, 외국인도 편하게 즐기는 한식·카페·술집.",
+  siteTagline: "효창공원 스테이에서 걸어서 8분 안, 외국인도 편하게 즐기는 한식·카페·술집.",
   switchLabel: "English",
   all: "전체",
   categories: {
