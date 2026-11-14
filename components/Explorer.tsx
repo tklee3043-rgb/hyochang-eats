@@ -101,7 +101,9 @@ export default function Explorer({ lang }: { lang: Locale }) {
 
         <aside className="min-h-0 flex-1 overflow-y-auto border-slate-200 md:w-96 md:flex-none md:border-l">
           <p className="px-4 pt-3 text-xs font-medium text-slate-500">{t.results(items.length)}</p>
-          {items.length === 0 && <p className="px-4 py-6 text-sm text-slate-600">{t.empty}</p>}
+          {items.length === 0 && (
+            <p className="px-4 py-6 text-sm text-slate-600">{restaurants.length === 0 ? t.comingSoon : t.empty}</p>
+          )}
           <ul>
             {items.map((r) => (
               <li key={r.id}>
