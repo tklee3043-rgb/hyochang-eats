@@ -10,7 +10,7 @@ export function isLocale(value: string): value is Locale {
 
 const en = {
   siteTitle: "Hyochang Eats",
-  siteTagline: "Local Korean food, cafes and bars within 500 m of Hyochang Park Station.",
+  siteTagline: "Local Korean food, cafes and bars within a 7-minute walk of Hyochang Park Stay.",
   switchLabel: "한국어",
   all: "All",
   categories: {
@@ -45,14 +45,14 @@ const en = {
   checked: (date: string) => `Info checked ${date}`,
   sample: "Sample",
   away: (m: number) => (m < 1000 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1)} km`),
-  fromStation: (m: number) => `${Math.round(m / 10) * 10} m from station`,
+  fromStay: (m: number) => `${Math.round(m / 10) * 10} m from the stay`,
 };
 
 export type Dictionary = typeof en;
 
 const ko: Dictionary = {
   siteTitle: "효창 맛집",
-  siteTagline: "효창공원앞역 500m 안, 외국인도 편하게 즐기는 한식·카페·술집.",
+  siteTagline: "효창공원 스테이에서 걸어서 7분 안, 외국인도 편하게 즐기는 한식·카페·술집.",
   switchLabel: "English",
   all: "전체",
   categories: {
@@ -87,7 +87,7 @@ const ko: Dictionary = {
   checked: (date: string) => `${date} 확인한 정보`,
   sample: "샘플",
   away: (m: number) => (m < 1000 ? `${Math.round(m / 10) * 10}m` : `${(m / 1000).toFixed(1)}km`),
-  fromStation: (m: number) => `역에서 ${Math.round(m / 10) * 10}m`,
+  fromStay: (m: number) => `숙소에서 ${Math.round(m / 10) * 10}m`,
 };
 
 export const dictionaries: Record<Locale, Dictionary> = { en, ko };

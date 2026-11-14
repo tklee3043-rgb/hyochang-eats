@@ -5,7 +5,7 @@ import type * as L from "leaflet";
 import type { Restaurant } from "@/data/restaurants";
 import type { Locale } from "@/lib/i18n";
 import { categoryColors } from "@/lib/categories";
-import { SERVICE_RADIUS_M, STATION } from "@/lib/area";
+import { SERVICE_RADIUS_M, STATION, STAY } from "@/lib/area";
 
 type Props = {
   lang: Locale;
@@ -15,7 +15,7 @@ type Props = {
   onSelect: (id: string) => void;
 };
 
-type MapState = { leaflet: typeof L; map: L.Map; pins: L.LayerGroup; me: L.LayerGroup };
+type MapState = { leaflet: typeof L; map: L.Map; pins: L.LayerGroup; me: L.LayerGroup; stay: L.LayerGroup };
 
 export default function MapView({ lang, items, selectedId, userPos, onSelect }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -30,7 +30,7 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
     import("leaflet").then((mod) => {
       const leaflet = ((mod as { default?: typeof L }).default ?? mod) as typeof L;
       if (cancelled || !containerRef.current) return;
-      const map = leaflet.map(containerRef.current, { zoomControl: false }).setView([STATION.lat, STATION.lng], 16);
+      const map = leaflet.map(containerRef.current, { zoomControl: false }).setView([STAY.lat, STAY.lng], 16);
       leaflet.control.zoom({ position: "bottomright" }).addTo(map);
       leaflet
         .tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -38,9 +38,9 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         })
         .addTo(map);
-      // 서비스 범위(역에서 500m)를 옅은 원으로 표시
+      // 서비스 범위(숙소에서 500m)를 옅은 원으로 표시
       leaflet
-        .circle([STATION.lat, STATION.lng], {
+        .circle([STAY.lat, STAY.lng], {
           radius: SERVICE_RADIUS_M,
           color: "#0f172a",
           weight: 1,
@@ -58,13 +58,41 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
         })
         .addTo(map);
       created = map;
-      setState({ leaflet, map, pins: leaflet.layerGroup().addTo(map), me: leaflet.layerGroup().addTo(map) });
+      setState({
+        leaflet,
+        map,
+        pins: leaflet.layerGroup().addTo(map),
+        me: leaflet.layerGroup().addTo(map),
+        stay: leaflet.layerGroup().addTo(map),
+      });
     });
     return () => {
       cancelled = true;
       created?.remove();
     };
   }, []);
+
+  // 숙소 표시: 점 위에 숙소 이름표(언어에 따라 바뀜)
+  useEffect(() => {
+    if (!state) return;
+    const { leaflet, stay } = state;
+    stay.clearLayers();
+    const name = STAY.name[lang];
+    leaflet
+      .marker([STAY.lat, STAY.lng], {
+        icon: leaflet.divIcon({
+          className: "",
+          html: `<span class="stay-pin"><span aria-hidden="true">🏠</span> ${name}</span>`,
+          iconSize: [0, 0],
+          iconAnchor: [0, 0],
+        }),
+        title: name,
+        keyboard: false,
+        interactive: false,
+        zIndexOffset: 500,
+      })
+      .addTo(stay);
+  }, [state, lang]);
 
   // 맛집 핀 그리기
   useEffect(() => {

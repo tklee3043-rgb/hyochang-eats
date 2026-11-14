@@ -55,6 +55,30 @@ a {
   border: 2px solid #ffffff;
   box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
 }
+/* 숙소 표시: 좌표 바로 위에 이름표, 아래 꼭짓점이 숙소 위치를 가리켜요.
+   역(서쪽) 표시를 가리지 않도록 이름표는 오른쪽으로 펼쳐져요. */
+.stay-pin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-18px, calc(-100% - 8px));
+  white-space: nowrap;
+  padding: 4px 9px;
+  border-radius: 9999px;
+  background: #0f766e;
+  color: #ffffff;
+  font: 700 12px/1.2 ui-sans-serif, system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
+}
+.stay-pin::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: -8px;
+  border: 6px solid transparent;
+  border-top-color: #0f766e;
+}
 .pin-selected {
   box-shadow:
     0 0 0 3px var(--pin),

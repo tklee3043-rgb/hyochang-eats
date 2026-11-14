@@ -6,7 +6,7 @@ import MapView from "@/components/MapView";
 import { restaurants, type Category, type Restaurant, type Tag } from "@/data/restaurants";
 import { dictionaries, type Locale } from "@/lib/i18n";
 import { categoryColors, categoryOrder, distanceMeters, tagOrder } from "@/lib/categories";
-import { STATION } from "@/lib/area";
+import { STAY } from "@/lib/area";
 
 type Pos = { lat: number; lng: number };
 
@@ -26,8 +26,8 @@ export default function Explorer({ lang }: { lang: Locale }) {
     const list = restaurants.filter(
       (r) => (category === "all" || r.category === category) && tags.every((tag) => r.tags.includes(tag)),
     );
-    // 내 위치를 모르면 역에서 가까운 순으로 보여줘요.
-    const origin = userPos ?? STATION;
+    // 내 위치를 모르면 숙소에서 가까운 순으로 보여줘요.
+    const origin = userPos ?? STAY;
     list.sort((a, b) => distanceMeters(origin, a) - distanceMeters(origin, b));
     return list;
   }, [category, tags, userPos]);
@@ -125,7 +125,7 @@ export default function Explorer({ lang }: { lang: Locale }) {
                     <span className="block text-sm text-slate-600">
                       {t.categories[r.category]} · {r.area[lang]} · {"₩".repeat(r.price)}
                       {" · "}
-                      {userPos ? t.away(distanceMeters(userPos, r)) : t.fromStation(distanceMeters(STATION, r))}
+                      {userPos ? t.away(distanceMeters(userPos, r)) : t.fromStay(distanceMeters(STAY, r))}
                     </span>
                   </span>
                 </button>
