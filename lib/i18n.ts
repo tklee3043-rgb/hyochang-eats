@@ -48,6 +48,8 @@ const en = {
   close: "Close",
   checked: (date: string) => `Info checked ${date}`,
   sample: "Sample",
+  notVisited: "Not visited yet",
+  notVisitedNote: "We haven't checked this place in person yet. Menu, prices and ordering tips will be added after our visit.",
   away: (m: number) => (m < 1000 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1)} km`),
   fromStay: (m: number) => `${Math.round(m / 10) * 10} m from the stay`,
 };
@@ -94,6 +96,8 @@ const ko: Dictionary = {
   close: "닫기",
   checked: (date: string) => `${date} 확인한 정보`,
   sample: "샘플",
+  notVisited: "방문 전",
+  notVisitedNote: "아직 직접 가 보지 않은 곳이에요. 다녀온 뒤 메뉴·가격·주문 팁을 채울게요.",
   away: (m: number) => (m < 1000 ? `${Math.round(m / 10) * 10}m` : `${(m / 1000).toFixed(1)}km`),
   fromStay: (m: number) => `숙소에서 ${Math.round(m / 10) * 10}m`,
 };

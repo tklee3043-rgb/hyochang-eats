@@ -123,9 +123,12 @@ export default function Explorer({ lang }: { lang: Locale }) {
                     <span className="flex items-center gap-2">
                       <span className="truncate font-semibold">{r.name[lang]}</span>
                       {r.sample && <SampleBadge label={t.sample} />}
+                      {!r.visited && <SampleBadge label={t.notVisited} />}
                     </span>
-                    <span className="block text-sm text-slate-600">
-                      {t.categories[r.category]} · {r.area[lang]} · {"₩".repeat(r.price)}
+                    <span className="block text-sm text-slate-600">{r.serves[lang]}</span>
+                    <span className="block text-xs text-slate-500">
+                      {t.categories[r.category]} · {r.area[lang]}
+                      {r.price ? ` · ${"₩".repeat(r.price)}` : ""}
                       {" · "}
                       {userPos ? t.away(distanceMeters(userPos, r)) : t.fromStay(distanceMeters(STAY, r))}
                     </span>
@@ -181,7 +184,8 @@ function SampleBadge({ label }: { label: string }) {
 function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose: () => void }) {
   const t = dictionaries[lang];
   const other: Locale = lang === "en" ? "ko" : "en";
-  const naverUrl = `https://map.naver.com/p/search/${encodeURIComponent(r.name.ko)}`;
+  // 이름만 검색하면 다른 지역 가게가 나올 수 있어서 "용산"을 붙여요.
+  const naverUrl = `https://map.naver.com/p/search/${encodeURIComponent(`용산 ${r.name.ko}`)}`;
   const googleUrl = `https://www.google.com/maps/search/?api=1&query=${r.lat},${r.lng}`;
 
   return (
@@ -197,9 +201,11 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
           <h2 className="mt-0.5 flex items-center gap-2 text-lg font-bold">
             {r.name[lang]}
             {r.sample && <SampleBadge label={t.sample} />}
+            {!r.visited && <SampleBadge label={t.notVisited} />}
           </h2>
           {/* 상대 언어 이름도 같이 보여주면 현지에서 간판을 찾기 쉬워요 */}
           <p className="text-sm text-slate-500">{r.name[other]}</p>
+          <p className="mt-1 text-sm text-slate-700">{r.serves[lang]}</p>
         </div>
         <button
           type="button"
@@ -211,35 +217,57 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
         </button>
       </div>
 
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        {r.tags.map((tag) => (
-          <span key={tag} className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700">
-            {t.tags[tag]}
-          </span>
-        ))}
-      </div>
-
-      <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
-        <dt className="text-slate-500">{t.hours}</dt>
-        <dd>{r.hours[lang]}</dd>
-        <dt className="text-slate-500">{t.price}</dt>
-        <dd>{"₩".repeat(r.price)}</dd>
-      </dl>
-
-      <h3 className="mt-4 text-sm font-semibold">{t.menu}</h3>
-      <ul className="mt-1 divide-y divide-slate-100 text-sm">
-        {r.menu.map((m) => (
-          <li key={m.name.en} className="flex justify-between gap-3 py-1.5">
-            <span>
-              {m.name[lang]} <span className="text-slate-500">· {m.name[other]}</span>
+      {r.tags.length > 0 && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {r.tags.map((tag) => (
+            <span key={tag} className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700">
+              {t.tags[tag]}
             </span>
-            <span className="shrink-0 tabular-nums">{won(m.priceKrw)}</span>
-          </li>
-        ))}
-      </ul>
+          ))}
+        </div>
+      )}
 
-      <h3 className="mt-4 text-sm font-semibold">{t.howToOrder}</h3>
-      <p className="mt-1 text-sm text-slate-700">{r.tip[lang]}</p>
+      {!r.visited && <p className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">{t.notVisitedNote}</p>}
+
+      {(r.hours || r.price) && (
+        <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
+          {r.hours && (
+            <>
+              <dt className="text-slate-500">{t.hours}</dt>
+              <dd>{r.hours[lang]}</dd>
+            </>
+          )}
+          {r.price && (
+            <>
+              <dt className="text-slate-500">{t.price}</dt>
+              <dd>{"₩".repeat(r.price)}</dd>
+            </>
+          )}
+        </dl>
+      )}
+
+      {r.menu && r.menu.length > 0 && (
+        <>
+          <h3 className="mt-4 text-sm font-semibold">{t.menu}</h3>
+          <ul className="mt-1 divide-y divide-slate-100 text-sm">
+            {r.menu.map((m, i) => (
+              <li key={`${i}-${m.name.en}`} className="flex justify-between gap-3 py-1.5">
+                <span>
+                  {m.name[lang]} <span className="text-slate-500">· {m.name[other]}</span>
+                </span>
+                <span className="shrink-0 tabular-nums">{won(m.priceKrw)}</span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {r.tip && (
+        <>
+          <h3 className="mt-4 text-sm font-semibold">{t.howToOrder}</h3>
+          <p className="mt-1 text-sm text-slate-700">{r.tip[lang]}</p>
+        </>
+      )}
 
       <h3 className="mt-4 text-sm font-semibold">{t.directions}</h3>
       <div className="mt-2 grid grid-cols-2 gap-2">
@@ -261,7 +289,7 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
         </a>
       </div>
 
-      <p className="mt-4 text-xs text-slate-400">{t.checked(r.checkedAt)}</p>
+      {r.checkedAt && <p className="mt-4 text-xs text-slate-400">{t.checked(r.checkedAt)}</p>}
     </section>
   );
 }
