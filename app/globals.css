@@ -79,6 +79,21 @@ a {
   border: 6px solid transparent;
   border-top-color: #0f766e;
 }
+/* 용문시장 표시: 시장 위치에 가운데 맞춘 옅은 이름표(맛집 핀보다 눈에 덜 띄게) */
+.market-pin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: rgb(255 251 235 / 0.92);
+  color: #92400e;
+  font: 700 11px/1.2 ui-sans-serif, system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif;
+  border: 1px solid #f59e0b;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+}
 .pin-selected {
   box-shadow:
     0 0 0 3px var(--pin),

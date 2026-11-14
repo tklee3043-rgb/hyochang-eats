@@ -5,7 +5,7 @@ import type * as L from "leaflet";
 import type { Restaurant } from "@/data/restaurants";
 import type { Locale } from "@/lib/i18n";
 import { categoryColors } from "@/lib/categories";
-import { SERVICE_RADIUS_M, STATION, STAY } from "@/lib/area";
+import { MARKET, SERVICE_RADIUS_M, STATION, STAY } from "@/lib/area";
 
 type Props = {
   lang: Locale;
@@ -30,7 +30,16 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
     import("leaflet").then((mod) => {
       const leaflet = ((mod as { default?: typeof L }).default ?? mod) as typeof L;
       if (cancelled || !containerRef.current) return;
-      const map = leaflet.map(containerRef.current, { zoomControl: false }).setView([STAY.lat, STAY.lng], 16);
+      // 첫 화면에 숙소·역·용문시장이 모두 보이게 맞춰요.
+      const map = leaflet.map(containerRef.current, { zoomControl: false }).fitBounds(
+        [
+          [STAY.lat, STAY.lng],
+          [STATION.lat, STATION.lng],
+          [MARKET.lat, MARKET.lng],
+        ],
+        // 숙소 이름표가 오른쪽으로 펼쳐져서 오른쪽 여백을 더 줘요.
+        { paddingTopLeft: [70, 40], paddingBottomRight: [160, 30], maxZoom: 16 },
+      );
       leaflet.control.zoom({ position: "bottomright" }).addTo(map);
       leaflet
         .tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -90,6 +99,21 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
         keyboard: false,
         interactive: false,
         zIndexOffset: 500,
+      })
+      .addTo(stay);
+    // 용문시장 표시: 길거리 음식이 모인 전통시장(지도 길잡이)
+    leaflet
+      .marker([MARKET.lat, MARKET.lng], {
+        icon: leaflet.divIcon({
+          className: "",
+          html: `<span class="market-pin"><span aria-hidden="true">🧺</span> ${MARKET.name[lang]}</span>`,
+          iconSize: [0, 0],
+          iconAnchor: [0, 0],
+        }),
+        title: MARKET.name[lang],
+        keyboard: false,
+        interactive: false,
+        zIndexOffset: -50,
       })
       .addTo(stay);
   }, [state, lang]);

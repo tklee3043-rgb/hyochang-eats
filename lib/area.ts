@@ -14,5 +14,12 @@ export const STATION = {
   name: { en: "Hyochang Park Station", ko: "효창공원앞역" },
 };
 
+/** 용문시장(전통시장, 길거리 음식). 시장 골목(효창원로40·42길) 대략 중심. 좌표 출처: OpenStreetMap 버스정류장 '용문시장'과 시장 안 가게 위치로 어림 (2026-11-15) */
+export const MARKET = {
+  lat: 37.5366,
+  lng: 126.9601,
+  name: { en: "Yongmun Market", ko: "용문시장" },
+};
+
 /** 숙소에서 이 거리(미터) 안의 가게만 다뤄요. 직선 600m, 도보 약 8분. 용문시장까지 들어와요. */
 export const SERVICE_RADIUS_M = 600;
