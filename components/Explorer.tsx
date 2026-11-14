@@ -123,7 +123,6 @@ export default function Explorer({ lang }: { lang: Locale }) {
                     <span className="flex items-center gap-2">
                       <span className="truncate font-semibold">{r.name[lang]}</span>
                       {r.sample && <SampleBadge label={t.sample} />}
-                      {!r.visited && <SampleBadge label={t.notVisited} />}
                     </span>
                     <span className="block text-sm text-slate-600">{r.serves[lang]}</span>
                     <span className="block text-xs text-slate-500">
@@ -201,7 +200,6 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
           <h2 className="mt-0.5 flex items-center gap-2 text-lg font-bold">
             {r.name[lang]}
             {r.sample && <SampleBadge label={t.sample} />}
-            {!r.visited && <SampleBadge label={t.notVisited} />}
           </h2>
           {/* 상대 언어 이름도 같이 보여주면 현지에서 간판을 찾기 쉬워요 */}
           <p className="text-sm text-slate-500">{r.name[other]}</p>
@@ -226,8 +224,6 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
           ))}
         </div>
       )}
-
-      {!r.visited && <p className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">{t.notVisitedNote}</p>}
 
       {(r.hours || r.price) && (
         <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">

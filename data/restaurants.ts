@@ -35,8 +35,8 @@ export type Restaurant = {
   sample?: boolean;
 };
 
-// 아래 30곳은 2026-11-15에 고른 방문 예정 후보예요(아직 방문 전).
-// 이름·위치는 공개된 가게 정보이고, 메뉴·가격·영업시간은 직접 다녀온 뒤 채워요.
+// 아래 30곳은 2026-11-15에 다이닝코드 후보 리스트에서 고른 곳이에요.
+// 이름·위치·대표 음식만 넣었어요. 메뉴·가격·영업시간은 확인되면 채워요(화면에는 있는 것만 보여요).
 type Seed = [id: string, ko: string, en: string, category: Category, areaKey: AreaKey, lat: number, lng: number, servesEn: string, servesKo: string];
 
 type AreaKey = "hyochang" | "station" | "w1" | "w2" | "market" | "yongmun";
