@@ -114,6 +114,131 @@ const seeds: Seed[] = [
   ["seveneleven-hyochang", "세븐일레븐", "7-Eleven", "convenience", "station", 37.53872, 126.960877, "Convenience store: snacks, drinks, ramen", "편의점"],
 ];
 
+// 대표 메뉴와 가격 (가게별 2~4개). 출처: 다이닝코드 가게 페이지의 메뉴 정보, 2026-11-15 확인.
+// 가격은 바뀔 수 있어서 화면에 "2026년 11월 기준" 안내를 함께 보여줘요.
+// [한국어 이름, 영어 이름, 가격(원)]
+export const MENU_AS_OF = "2026-11";
+const menus: Record<string, [ko: string, en: string, priceKrw: number][]> = {
+  jeulgeopso: [
+    ["한우꽃등심", "Hanwoo beef ribeye", 60000],
+    ["한우차돌", "Hanwoo beef brisket", 35000],
+    ["한우육회", "Hanwoo beef tartare (yukhoe)", 35000],
+    ["갈비탕", "Beef short rib soup", 17000],
+  ],
+  "yongmun-galbi": [
+    ["돼지갈비", "Marinated pork ribs", 22000],
+    ["삼겹살", "Pork belly", 18000],
+    ["소갈비", "Beef ribs", 52000],
+    ["한우암소갈비", "Hanwoo beef ribs", 68000],
+  ],
+  "yongmun-tongdak": [
+    ["옛날통닭 (대)", "Old-school whole fried chicken (large)", 10000],
+    ["양념치킨", "Sweet & spicy fried chicken", 14000],
+    ["크리스피치킨", "Crispy fried chicken", 13000],
+  ],
+  yangjagang: [
+    ["짜장면", "Jjajangmyeon (black bean noodles)", 7500],
+    ["짬뽕", "Jjamppong (spicy seafood noodle soup)", 8500],
+    ["미니탕수육", "Sweet & sour pork (small)", 12000],
+    ["탕수육", "Sweet & sour pork", 26000],
+  ],
+  "hohwa-banjeom": [
+    ["해물짜장정식", "Seafood jjajang set", 9500],
+    ["열짬뽕", "Extra-spicy jjamppong", 9500],
+    ["볶음짬뽕", "Stir-fried jjamppong noodles", 9500],
+  ],
+  "keunjip-dakhanmari": [
+    ["닭한마리", "Dakhanmari (whole chicken hot pot, for 2)", 29000],
+    ["사리 (칼국수)", "Extra noodles", 2000],
+    ["닭볶음탕", "Spicy braised chicken", 31000],
+    ["(평일) 점심칼국수", "Weekday lunch kalguksu", 9000],
+  ],
+  "gangwondo-kalguksu": [
+    ["칼국수", "Knife-cut noodle soup", 9500],
+    ["들깨칼국수", "Perilla-seed noodle soup", 12000],
+  ],
+  gangwonjeong: [
+    ["삼계탕", "Samgyetang (ginseng chicken soup)", 18000],
+    ["인삼주", "Ginseng liquor", 10000],
+  ],
+  "jeonju-kongnamul-gukbap": [
+    ["콩나물국밥", "Bean sprout rice soup", 9000],
+    ["순대국", "Sundae (Korean sausage) soup", 10000],
+    ["해물파전", "Seafood scallion pancake", 15000],
+  ],
+  "gyeongjin-sikdang": [
+    ["옛날청국장", "Cheonggukjang (fermented soybean stew)", 6000],
+    ["김치찌개", "Kimchi stew", 6000],
+    ["된장찌개", "Soybean paste stew", 6000],
+  ],
+  "bukchangdong-sundubu": [
+    ["북창동순두부", "Soft tofu stew", 11000],
+    ["햄치즈순두부", "Ham & cheese soft tofu stew", 11000],
+    ["고등어구이 1인한상", "Grilled mackerel set (1 person)", 19900],
+  ],
+  "jeonju-sansu-bibimbap": [
+    ["전주비빔밥", "Jeonju-style bibimbap", 10000],
+    ["전주돌솥비빔밥", "Hot stone-pot bibimbap", 11000],
+    ["소고기비빔밥", "Beef bibimbap", 11000],
+  ],
+  "jeomsuni-hotteok": [
+    ["수수 꿀 호떡", "Hotteok with honey filling", 2000],
+    ["수수 팥 호떡", "Hotteok with red bean filling", 2500],
+  ],
+  "yongmun-odeng": [
+    ["오리지널 수제어묵", "Handmade fish cakes", 5000],
+    ["쫄깃고소 치즈핫바", "Cheese fish-cake bar", 1500],
+  ],
+  "busan-eomuk": [
+    ["찰순대 2인분", "Sundae (Korean sausage), for 2", 3000],
+    ["고기만두", "Meat dumplings", 5000],
+    ["오뎅 포장", "Fish cakes to go", 5000],
+  ],
+  "seori-gimbap": [
+    ["서리김밥", "Classic gimbap", 3000],
+    ["참치김밥", "Tuna gimbap", 5000],
+    ["더블치즈김밥", "Double cheese gimbap", 5000],
+  ],
+  housblanc: [
+    ["아메리카노", "Americano", 4800],
+    ["카페라떼", "Cafe latte", 5500],
+  ],
+  "bakery-mui": [
+    ["소금빵", "Salt bread", 3000],
+    ["크림 크러핀", "Cream cruffin", 5000],
+    ["메론 데니쉬", "Melon danish", 4000],
+  ],
+  "dagwa-sangsa": [
+    ["카페라떼", "Cafe latte", 4500],
+    ["잉글리쉬 브렉퍼스트", "English breakfast tea", 4300],
+  ],
+  tabata: [
+    ["복숭아 얼그레이 산도", "Peach Earl Grey fruit sandwich", 12000],
+    ["커스터드 푸딩", "Custard pudding", 7000],
+    ["아메리카노", "Americano", 5000],
+  ],
+  "mammoth-hyochang": [["아메리카노", "Americano", 1600]],
+  "mega-richensia": [
+    ["아메리카노 (따뜻한)", "Americano (hot)", 1500],
+    ["아이스 아메리카노", "Iced americano", 2000],
+    ["딸기라떼", "Strawberry latte", 3700],
+  ],
+  "parisbaguette-richensia": [
+    ["단팥 도넛", "Red bean donut", 2400],
+    ["추억의 생도나스", "Old-fashioned sugar donut", 1900],
+    ["밤식빵 (1/2)", "Chestnut bread (half loaf)", 3800],
+  ],
+  "touslesjours-richensia": [
+    ["딸기 마카롱 도넛", "Strawberry macaron donut", 1600],
+    ["피자덕", "Pizza bread", 3200],
+  ],
+  yejeonjip: [
+    ["해물파전", "Seafood scallion pancake", 24000],
+    ["녹두전", "Mung bean pancake", 20000],
+    ["육전", "Pan-fried beef slices", 20000],
+  ],
+};
+
 export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaKey, lat, lng, servesEn, servesKo]) => ({
   id,
   name: { en, ko },
@@ -123,5 +248,6 @@ export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaK
   lng,
   serves: { en: servesEn, ko: servesKo },
   visited: false,
+  menu: (menus[id] ?? []).map(([mko, men, priceKrw]) => ({ name: { en: men, ko: mko }, priceKrw })),
   tags: [],
 }));

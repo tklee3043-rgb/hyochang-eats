@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import MapView from "@/components/MapView";
-import { restaurants, type Category, type Restaurant, type Tag } from "@/data/restaurants";
+import { MENU_AS_OF, restaurants, type Category, type Restaurant, type Tag } from "@/data/restaurants";
 import { dictionaries, type Locale } from "@/lib/i18n";
 import { categoryColors, categoryOrder, distanceMeters, tagOrder, utilityCategories } from "@/lib/categories";
 import { STAY } from "@/lib/area";
@@ -261,6 +261,7 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
               </li>
             ))}
           </ul>
+          <p className="mt-1 text-xs text-slate-400">{t.priceNote(MENU_AS_OF)}</p>
         </>
       )}
 

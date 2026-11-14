@@ -49,6 +49,11 @@ const en = {
   close: "Close",
   checked: (date: string) => `Info checked ${date}`,
   sample: "Sample",
+  priceNote: (ym: string) => {
+    const [y, m] = ym.split("-");
+    const month = new Date(Number(y), Number(m) - 1, 1).toLocaleString("en-US", { month: "short" });
+    return `Prices as of ${month} ${y}. They may have changed.`;
+  },
   away: (m: number) => (m < 1000 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1)} km`),
   fromStay: (m: number) => `${Math.round(m / 10) * 10} m from the stay`,
 };
@@ -96,6 +101,10 @@ const ko: Dictionary = {
   close: "닫기",
   checked: (date: string) => `${date} 확인한 정보`,
   sample: "샘플",
+  priceNote: (ym: string) => {
+    const [y, m] = ym.split("-");
+    return `${y}년 ${Number(m)}월 기준 가격이에요. 바뀌었을 수 있어요.`;
+  },
   away: (m: number) => (m < 1000 ? `${Math.round(m / 10) * 10}m` : `${(m / 1000).toFixed(1)}km`),
   fromStay: (m: number) => `숙소에서 ${Math.round(m / 10) * 10}m`,
 };
