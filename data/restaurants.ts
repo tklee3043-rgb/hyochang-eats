@@ -40,6 +40,8 @@ export type Restaurant = {
   price?: 1 | 2 | 3;
   hours?: Text;
   menu?: MenuItem[];
+  /** 메뉴 가격의 기준 시점 (YYYY-MM). 없으면 MENU_AS_OF */
+  menuAsOf?: string;
   tip?: Text;
   tags: Tag[];
   /** 정보를 마지막으로 확인한 날짜 (YYYY-MM-DD). 방문 후에 채워요 */
@@ -313,6 +315,21 @@ const menus: Record<string, [ko: string, en: string, priceKrw: number][]> = {
     ["딸기 마카롱 도넛", "Strawberry macaron donut", 1600],
     ["피자덕", "Pizza bread", 3200],
   ],
+  // 출처: 네이버 블로그 후기의 메뉴판(2026-04-02 기준)
+  wondumak: [
+    ["부대찌개", "Budae-jjigae (army stew)", 8000],
+    ["고추장찌개", "Gochujang stew (spicy)", 8000],
+    ["제육볶음", "Spicy stir-fried pork", 9000],
+    ["고등어자반", "Salted grilled mackerel", 10000],
+  ],
+  // 출처: 네이버 플레이스 메뉴판 사진의 가격(2024-05 등록)
+  notz: [
+    ["나와 나타샤와 흰당나귀", "Signature cocktail \"Natasha and the White Donkey\"", 20000],
+    ["헛간 불태우다", "Signature cocktail \"Barn Burning\"", 21000],
+    ["김홍도 난로회", "Signature cocktail \"Kim Hong-do's Brazier Party\"", 22000],
+    ["Bunnahabhain 12Y (한 잔)", "Bunnahabhain 12-year whisky (glass)", 18000],
+    ["Laphroaig 10Y (한 잔)", "Laphroaig 10-year whisky (glass)", 18000],
+  ],
   yejeonjip: [
     ["해물파전", "Seafood scallion pancake", 24000],
     ["녹두전", "Mung bean pancake", 20000],
@@ -321,6 +338,9 @@ const menus: Record<string, [ko: string, en: string, priceKrw: number][]> = {
 };
 
 // 매장에 자리가 없어 포장·배달만 되는 곳 (숙소 운영자 확인, 2026-11-15)
+// 기본 기준(MENU_AS_OF)과 다른 시점의 가격
+const menuAsOfById: Record<string, string> = { wondumak: "2026-04", notz: "2024-05" };
+
 const takeoutOnly = new Set(["cheogajip-hyochang", "goobne-yongmun", "bbq-hyochang", "yongmun-tongdak"]);
 
 export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaKey, lat, lng, servesEn, servesKo]) => ({
@@ -334,5 +354,6 @@ export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaK
   visited: false,
   dineIn: !takeoutOnly.has(id),
   menu: (menus[id] ?? []).map(([mko, men, priceKrw]) => ({ name: { en: men, ko: mko }, priceKrw })),
+  menuAsOf: menuAsOfById[id],
   tags: [],
 }));

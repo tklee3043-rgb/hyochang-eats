@@ -270,7 +270,7 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
               </li>
             ))}
           </ul>
-          <p className="mt-1 text-xs text-slate-400">{t.priceNote(MENU_AS_OF)}</p>
+          <p className="mt-1 text-xs text-slate-400">{t.priceNote(r.menuAsOf ?? MENU_AS_OF)}</p>
         </>
       )}
 
