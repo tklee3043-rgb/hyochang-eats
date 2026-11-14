@@ -49,6 +49,8 @@ const en = {
   close: "Close",
   checked: (date: string) => `Info checked ${date}`,
   sample: "Sample",
+  takeoutOnly: "Takeout only",
+  takeoutNote: "No seating here: takeout or delivery only. Order at the counter and take it back to your room.",
   priceNote: (ym: string) => {
     const [y, m] = ym.split("-");
     const month = new Date(Number(y), Number(m) - 1, 1).toLocaleString("en-US", { month: "short" });
@@ -101,6 +103,8 @@ const ko: Dictionary = {
   close: "닫기",
   checked: (date: string) => `${date} 확인한 정보`,
   sample: "샘플",
+  takeoutOnly: "포장·배달만",
+  takeoutNote: "매장에 자리가 없어 포장·배달만 돼요. 카운터에서 주문해 숙소로 가져가 드세요.",
   priceNote: (ym: string) => {
     const [y, m] = ym.split("-");
     return `${y}년 ${Number(m)}월 기준 가격이에요. 바뀌었을 수 있어요.`;

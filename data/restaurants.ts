@@ -34,6 +34,8 @@ export type Restaurant = {
   serves: Text;
   /** 직접 가서 확인했는지 */
   visited: boolean;
+  /** false면 매장에 자리가 없어 포장·배달만 돼요 */
+  dineIn: boolean;
   /** 1 = ~10,000원, 2 = ~20,000원, 3 = 30,000원 이상 (1인 기준). 방문 후에 채워요 */
   price?: 1 | 2 | 3;
   hours?: Text;
@@ -318,6 +320,9 @@ const menus: Record<string, [ko: string, en: string, priceKrw: number][]> = {
   ],
 };
 
+// 매장에 자리가 없어 포장·배달만 되는 곳 (숙소 운영자 확인, 2026-11-15)
+const takeoutOnly = new Set(["cheogajip-hyochang", "goobne-yongmun", "bbq-hyochang", "yongmun-tongdak"]);
+
 export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaKey, lat, lng, servesEn, servesKo]) => ({
   id,
   name: { en, ko },
@@ -327,6 +332,7 @@ export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaK
   lng,
   serves: { en: servesEn, ko: servesKo },
   visited: false,
+  dineIn: !takeoutOnly.has(id),
   menu: (menus[id] ?? []).map(([mko, men, priceKrw]) => ({ name: { en: men, ko: mko }, priceKrw })),
   tags: [],
 }));

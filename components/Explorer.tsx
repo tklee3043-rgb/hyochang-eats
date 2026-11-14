@@ -129,6 +129,7 @@ export default function Explorer({ lang }: { lang: Locale }) {
                     <span className="flex items-center gap-2">
                       <span className="truncate font-semibold">{r.name[lang]}</span>
                       {r.sample && <SampleBadge label={t.sample} />}
+                      {!r.dineIn && <TakeoutBadge label={t.takeoutOnly} />}
                     </span>
                     <span className="block text-sm text-slate-600">{r.serves[lang]}</span>
                     <span className="block text-xs text-slate-500">
@@ -186,6 +187,12 @@ function SampleBadge({ label }: { label: string }) {
   );
 }
 
+function TakeoutBadge({ label }: { label: string }) {
+  return (
+    <span className="shrink-0 rounded bg-slate-200 px-1.5 py-0.5 text-[10px] font-semibold text-slate-700">{label}</span>
+  );
+}
+
 function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose: () => void }) {
   const t = dictionaries[lang];
   const other: Locale = lang === "en" ? "ko" : "en";
@@ -206,10 +213,12 @@ function DetailCard({ r, lang, onClose }: { r: Restaurant; lang: Locale; onClose
           <h2 className="mt-0.5 flex items-center gap-2 text-lg font-bold">
             {r.name[lang]}
             {r.sample && <SampleBadge label={t.sample} />}
+            {!r.dineIn && <TakeoutBadge label={t.takeoutOnly} />}
           </h2>
           {/* 상대 언어 이름도 같이 보여주면 현지에서 간판을 찾기 쉬워요 */}
           <p className="text-sm text-slate-500">{r.name[other]}</p>
           <p className="mt-1 text-sm text-slate-700">{r.serves[lang]}</p>
+          {!r.dineIn && <p className="mt-2 rounded-lg bg-slate-100 p-2 text-xs text-slate-700">{t.takeoutNote}</p>}
         </div>
         <button
           type="button"
