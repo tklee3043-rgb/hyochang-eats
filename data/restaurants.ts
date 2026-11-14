@@ -68,6 +68,14 @@ const seeds: Seed[] = [
   // 치킨
   ["sinhwal-beer", "생활맥주 효창공원앞역점", "Saenghwal Beer (Hyochang Park)", "chicken", "station", 37.5383703, 126.9642169, "Fried chicken and craft beer (chimaek)", "치킨과 수제맥주(치맥)"],
   ["yongmun-tongdak", "용문통닭", "Yongmun Tongdak", "chicken", "market", 37.5369455, 126.9597336, "Old-school whole fried chicken, sweet crispy chicken", "옛날통닭·닭강정"],
+  ["cheogajip-hyochang", "처갓집양념치킨 효창점", "Cheogajip Chicken", "chicken", "w1", 37.5391923, 126.9647726, "Sweet & spicy yangnyeom fried chicken", "양념치킨"],
+  ["kkanbu-richensia", "깐부치킨 용산리첸시아점", "Kkanbu Chicken", "chicken", "w1", 37.5379536, 126.9677332, "Crispy fried chicken, roasted chicken", "크리스피치킨·전기구이"],
+  ["kkokkoren", "꼬꼬렌", "Kkokkoren", "chicken", "w1", 37.5381312, 126.9679491, "Charcoal-grilled chicken and skewers with draft beer", "숯불통닭·닭꼬치·생맥주"],
+  ["bbq-hyochang", "BBQ 효창중앙점", "BBQ Chicken", "chicken", "station", 37.5398425, 126.9605247, "Fried chicken chain (Golden Olive chicken)", "황금올리브치킨"],
+  ["mexican-hyochang", "멕시칸치킨 효창중앙점", "Mexican Chicken", "chicken", "hyochang", 37.54145, 126.961664, "Classic fried and yangnyeom chicken, sweet crispy chicken bites", "후라이드·양념치킨·닭강정"],
+  ["kyochon-yongmun", "교촌치킨 용문점", "Kyochon Chicken", "chicken", "yongmun", 37.5377959, 126.960009, "Honey and spicy chicken wings", "허니·레드 윙콤보"],
+  ["goobne-yongmun", "굽네치킨 용산용문점", "Goobne Chicken", "chicken", "market", 37.536875, 126.9608799, "Oven-baked chicken (not fried)", "오븐에 구운 치킨"],
+  ["wonjo-charcoal-chicken", "원조숯불통닭바베큐", "Wonjo Charcoal Chicken", "chicken", "market", 37.5373716, 126.9597707, "Charcoal-grilled whole chicken (salt or sauce)", "숯불통닭"],
   // 중식
   ["yangjagang", "양자강", "Yangjagang", "chinese", "w2", 37.5382386, 126.9646674, "Jjajangmyeon, jjamppong (Korean-Chinese)", "짜장면·짬뽕"],
   ["hohwa-banjeom", "호화반점", "Hohwa Banjeom", "chinese", "w2", 37.5363978, 126.9637666, "Jjajangmyeon (Korean-Chinese)", "짜장면"],
@@ -167,6 +175,45 @@ const menus: Record<string, [ko: string, en: string, priceKrw: number][]> = {
     ["옛날통닭 (대)", "Old-school whole fried chicken (large)", 10000],
     ["양념치킨", "Sweet & spicy fried chicken", 14000],
     ["크리스피치킨", "Crispy fried chicken", 13000],
+  ],
+  "cheogajip-hyochang": [
+    ["슈프림 양념치킨", "Supreme yangnyeom chicken (sweet & spicy)", 25900],
+    ["순살 후라이드치킨", "Boneless fried chicken", 24900],
+    ["허니올리고당야채양념치킨", "Honey yangnyeom chicken with vegetables", 23900],
+  ],
+  "kkanbu-richensia": [
+    ["크리스피치킨", "Crispy fried chicken", 22000],
+    ["마늘간장순살치킨", "Boneless garlic soy chicken", 24000],
+    ["전기구이", "Roasted chicken (not fried)", 19000],
+  ],
+  kkokkoren: [
+    ["숯불통닭 (소금/양념/반반)", "Charcoal-grilled whole chicken (salt / sauce / half & half)", 22000],
+    ["숯불닭꼬치 A세트", "Charcoal chicken skewer set A", 22000],
+    ["모듬오뎅탕", "Fish cake hot pot", 15000],
+  ],
+  "bbq-hyochang": [
+    ["황금올리브치킨", "Golden Olive fried chicken", 23000],
+    ["필크런치", "Feel Crunch fried chicken", 27000],
+  ],
+  "mexican-hyochang": [
+    ["후라이드치킨", "Fried chicken", 18000],
+    ["양념치킨", "Yangnyeom chicken (sweet & spicy)", 18000],
+    ["순살치킨", "Boneless fried chicken", 20000],
+    ["닭강정", "Sweet crispy chicken bites", 21000],
+  ],
+  "kyochon-yongmun": [
+    ["허니윙콤비 (하프윙+순살)", "Honey wing combo (wings + boneless)", 24000],
+    ["레드윙콤비 (하프윙+순살)", "Red (spicy) wing combo", 24000],
+    ["고르곤치즈볼 (6개)", "Gorgonzola cheese balls (6)", 6000],
+  ],
+  "goobne-yongmun": [
+    ["New 오리지널", "Original oven-baked chicken", 17900],
+    ["고추바사삭", "Gochu Basasak (crispy chili oven chicken)", 19900],
+    ["양념히어로", "Yangnyeom Hero (sweet & spicy oven chicken)", 19900],
+  ],
+  "wonjo-charcoal-chicken": [
+    ["숯불통닭 1마리 (양념/소금/반반)", "Charcoal-grilled whole chicken (sauce / salt / half & half)", 22000],
+    ["숯불통닭 반마리", "Charcoal-grilled half chicken", 12000],
   ],
   yangjagang: [
     ["짜장면", "Jjajangmyeon (black bean noodles)", 7500],
