@@ -23,6 +23,7 @@ const en = {
     bakery: "Bakery",
     cafe: "Cafe & dessert",
     bar: "Bars (pocha)",
+    convenience: "Convenience store",
   } satisfies Record<Category, string>,
   tags: {
     englishMenu: "English menu",
@@ -69,6 +70,7 @@ const ko: Dictionary = {
     bakery: "빵집",
     cafe: "카페·디저트",
     bar: "술집·포차",
+    convenience: "편의점",
   },
   tags: {
     englishMenu: "영어 메뉴",

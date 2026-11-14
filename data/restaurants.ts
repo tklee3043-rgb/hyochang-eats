@@ -5,7 +5,17 @@
 // 2) 방문 후(visited: true): 직접 가서 확인한 가격·영업시간·메뉴·주문 팁·태그·확인 날짜를 채워요
 //    (docs/research-template.md 참고). 사진과 글은 직접 찍고 쓴 것만 넣어요.
 
-export type Category = "korean" | "snack" | "bbq" | "chicken" | "chinese" | "noodle" | "bakery" | "cafe" | "bar";
+export type Category =
+  | "korean"
+  | "snack"
+  | "bbq"
+  | "chicken"
+  | "chinese"
+  | "noodle"
+  | "bakery"
+  | "cafe"
+  | "bar"
+  | "convenience";
 
 export type Tag = "englishMenu" | "card" | "solo" | "vegetarian" | "spicy" | "lateNight";
 
@@ -35,7 +45,7 @@ export type Restaurant = {
   sample?: boolean;
 };
 
-// 아래 30곳은 2026-11-15에 다이닝코드 후보 리스트에서 고른 곳이에요.
+// 아래 가게는 2026-11-15에 다이닝코드 후보 리스트에서 고른 곳이에요(편의점은 OpenStreetMap).
 // 이름·위치·대표 음식만 넣었어요. 메뉴·가격·영업시간은 확인되면 채워요(화면에는 있는 것만 보여요).
 type Seed = [id: string, ko: string, en: string, category: Category, areaKey: AreaKey, lat: number, lng: number, servesEn: string, servesKo: string];
 
@@ -85,10 +95,23 @@ const seeds: Seed[] = [
   ["dagwa-sangsa", "다과상사", "Dagwa Sangsa", "cafe", "station", 37.5393709, 126.961628, "Cafe with scones", "카페·스콘"],
   ["tabata", "타바타", "Tabata", "cafe", "w1", 37.5407635, 126.9677366, "Cafe with fruit sandwiches", "카페·후르츠산도"],
   ["starbucks-hyochang", "스타벅스 효창공원앞역점", "Starbucks Hyochang Park Stn.", "cafe", "station", 37.5389661, 126.9633936, "Coffee chain (familiar menu)", "스타벅스"],
+  ["mammoth-hyochang", "매머드익스프레스 효창공원앞역점", "Mammoth Express Hyochang Park Stn.", "cafe", "station", 37.538821, 126.9640361, "Budget coffee chain (cheap iced americano)", "저렴한 커피 체인"],
+  ["mega-richensia", "메가MGC커피 용산리첸시아점", "Mega Coffee Yongsan Richensia", "cafe", "w1", 37.5382067, 126.9669446, "Budget coffee chain (big, cheap drinks)", "저렴한 커피 체인"],
+  // 체인 빵집
+  ["parisbaguette-richensia", "파리바게뜨 용산리첸시아점", "Paris Baguette Yongsan Richensia", "bakery", "w1", 37.5380779, 126.9671444, "Bakery chain (bread, cakes, coffee)", "빵·케이크 체인"],
+  ["touslesjours-richensia", "뚜레쥬르 용산리첸시아점", "Tous les Jours Yongsan Richensia", "bakery", "w1", 37.5381725, 126.9668959, "Bakery chain (bread, cakes)", "빵·케이크 체인"],
   // 술집
   ["pajeon-nara", "파전나라", "Pajeon Nara", "bar", "market", 37.537591, 126.960741, "Pajeon (scallion pancake) and makgeolli", "파전·막걸리"],
   ["yejeonjip", "예전집", "Yejeonjip", "bar", "market", 37.535672, 126.9610935, "Makgeolli and jeon (Korean pancakes)", "막걸리·전집"],
   ["notz", "노츠", "Notz", "bar", "w2", 37.538252, 126.9631984, "Whisky and cocktail bar", "위스키·칵테일 바"],
+  // 편의점 (위치 출처: OpenStreetMap, 2026-11-15). 목록 "전체"에는 안 나오고 지도와 "편의점" 필터에서 보여요.
+  ["cu-hyochang-stn", "CU 효창공원역점", "CU (Hyochang Park Stn.)", "convenience", "station", 37.538187, 126.963519, "Convenience store: snacks, drinks, ramen", "편의점"],
+  ["gs25-wonhyo-a", "GS25", "GS25", "convenience", "w2", 37.537471, 126.965668, "Convenience store: snacks, drinks, ramen", "편의점"],
+  ["gs25-centerforet", "GS25 효창센터포레", "GS25 (Centerforet)", "convenience", "station", 37.539302, 126.962948, "Convenience store: snacks, drinks, ramen", "편의점"],
+  ["gs25-wonhyo-b", "GS25", "GS25", "convenience", "w2", 37.5369727, 126.9634154, "Convenience store: snacks, drinks, ramen", "편의점"],
+  ["gs25-wonhyo-c", "GS25", "GS25", "convenience", "w1", 37.5399506, 126.9679195, "Convenience store: snacks, drinks, ramen", "편의점"],
+  ["cu-hyochang-park", "CU 용산효창공원점", "CU (Yongsan Hyochang Park)", "convenience", "hyochang", 37.540992, 126.962945, "Convenience store: snacks, drinks, ramen", "편의점"],
+  ["seveneleven-hyochang", "세븐일레븐", "7-Eleven", "convenience", "station", 37.53872, 126.960877, "Convenience store: snacks, drinks, ramen", "편의점"],
 ];
 
 export const restaurants: Restaurant[] = seeds.map(([id, ko, en, category, areaKey, lat, lng, servesEn, servesKo]) => ({

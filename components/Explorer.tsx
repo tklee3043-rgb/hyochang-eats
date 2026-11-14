@@ -5,7 +5,7 @@ import Link from "next/link";
 import MapView from "@/components/MapView";
 import { restaurants, type Category, type Restaurant, type Tag } from "@/data/restaurants";
 import { dictionaries, type Locale } from "@/lib/i18n";
-import { categoryColors, categoryOrder, distanceMeters, tagOrder } from "@/lib/categories";
+import { categoryColors, categoryOrder, distanceMeters, tagOrder, utilityCategories } from "@/lib/categories";
 import { STAY } from "@/lib/area";
 
 type Pos = { lat: number; lng: number };
@@ -31,6 +31,12 @@ export default function Explorer({ lang }: { lang: Locale }) {
     list.sort((a, b) => distanceMeters(origin, a) - distanceMeters(origin, b));
     return list;
   }, [category, tags, userPos]);
+
+  // 편의점 같은 편의 시설은 "전체" 목록에서는 빼요(지도에는 작은 핀으로 보여요).
+  const listItems = useMemo(
+    () => (category === "all" ? items.filter((r) => !utilityCategories.includes(r.category)) : items),
+    [category, items],
+  );
 
   const selected = items.find((r) => r.id === selectedId) ?? null;
 
@@ -100,12 +106,12 @@ export default function Explorer({ lang }: { lang: Locale }) {
         </div>
 
         <aside className="min-h-0 flex-1 overflow-y-auto border-slate-200 md:w-96 md:flex-none md:border-l">
-          <p className="px-4 pt-3 text-xs font-medium text-slate-500">{t.results(items.length)}</p>
-          {items.length === 0 && (
+          <p className="px-4 pt-3 text-xs font-medium text-slate-500">{t.results(listItems.length)}</p>
+          {listItems.length === 0 && (
             <p className="px-4 py-6 text-sm text-slate-600">{restaurants.length === 0 ? t.comingSoon : t.empty}</p>
           )}
           <ul>
-            {items.map((r) => (
+            {listItems.map((r) => (
               <li key={r.id}>
                 <button
                   type="button"

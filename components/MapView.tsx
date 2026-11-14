@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import type * as L from "leaflet";
 import type { Restaurant } from "@/data/restaurants";
 import type { Locale } from "@/lib/i18n";
-import { categoryColors } from "@/lib/categories";
+import { categoryColors, utilityCategories } from "@/lib/categories";
 import { MARKET, SERVICE_RADIUS_M, STATION, STAY } from "@/lib/area";
 
 type Props = {
@@ -125,15 +125,17 @@ export default function MapView({ lang, items, selectedId, userPos, onSelect }: 
     pins.clearLayers();
     for (const r of items) {
       const selected = r.id === selectedId;
-      const size = selected ? 30 : 22;
+      // 편의점은 맛집보다 작고 네모난 핀으로 보여줘요.
+      const utility = utilityCategories.includes(r.category);
+      const size = selected ? 30 : utility ? 16 : 22;
       const icon = leaflet.divIcon({
         className: "",
-        html: `<span class="pin${selected ? " pin-selected" : ""}" style="--pin:${categoryColors[r.category]}"></span>`,
+        html: `<span class="pin${utility ? " pin-utility" : ""}${selected ? " pin-selected" : ""}" style="--pin:${categoryColors[r.category]}"></span>`,
         iconSize: [size, size],
         iconAnchor: [size / 2, size / 2],
       });
       leaflet
-        .marker([r.lat, r.lng], { icon, title: r.name[lang], zIndexOffset: selected ? 1000 : 0 })
+        .marker([r.lat, r.lng], { icon, title: r.name[lang], zIndexOffset: selected ? 1000 : utility ? -10 : 0 })
         .on("click", () => onSelectRef.current(r.id))
         .addTo(pins);
     }
