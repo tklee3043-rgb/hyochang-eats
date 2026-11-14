@@ -1,6 +1,6 @@
 import type { Category, Tag } from "@/data/restaurants";
 
-export const categoryOrder: Category[] = ["korean", "snack", "bbq", "chicken", "chinese", "noodle", "cafe", "bar"];
+export const categoryOrder: Category[] = ["korean", "snack", "bbq", "chicken", "chinese", "noodle", "bakery", "cafe", "bar"];
 
 export const tagOrder: Tag[] = ["englishMenu", "card", "solo", "vegetarian", "spicy", "lateNight"];
 
@@ -12,6 +12,7 @@ export const categoryColors: Record<Category, string> = {
   chicken: "#ca8a04",
   chinese: "#15803d",
   noodle: "#0891b2",
+  bakery: "#b45309",
   cafe: "#db2777",
   bar: "#7c3aed",
 };

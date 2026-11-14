@@ -1,7 +1,7 @@
 # 맛집 조사 후보 리스트 (다이닝코드 기준)
 
 - 출처: 다이닝코드 검색 결과의 **가게 이름·음식 종류·주소·좌표·링크만** 모았어요. 리뷰·점수·사진은 가져오지 않았어요.
-- 수집일: 2026-11-15. 검색어: `효창공원앞역`, `효창공원앞역 중식`, `효창공원앞역 고기`, `효창공원앞역 치킨`, `효창공원앞역 술집`, `용문동 맛집`, `원효로1가 맛집`, `원효로2가 맛집`, `용문동 한우`, `원효로 한우`, `원효로 고기`, `원효로 중식`, `원효로 치킨`, `원효로 술집`, `용문동 술집`, `원효로1가 (전체 목록)`, `원효로2가 (전체 목록)`, `용문동 (전체 목록)`, `용문시장`
+- 수집일: 2026-11-15. 검색어: `효창공원앞역`, `효창공원앞역 중식`, `효창공원앞역 고기`, `효창공원앞역 치킨`, `효창공원앞역 술집`, `용문동 맛집`, `원효로1가 맛집`, `원효로2가 맛집`, `용문동 한우`, `원효로 한우`, `원효로 고기`, `원효로 중식`, `원효로 치킨`, `원효로 술집`, `용문동 술집`, `원효로1가 (전체 목록)`, `원효로2가 (전체 목록)`, `용문동 (전체 목록)`, `용문시장`, `카페·빵집·체인 커피`
 - 기준: **숙소 Hyochang Park Stay(원효로1가 23-70, 백범로81길 7)**에서 직선거리. 앱 범위는 숙소 600m(걸어서 약 8분, 용문시장 포함). 효창공원앞역까지는 약 310m.
 - 목록은 종류별로 나누고, 각 종류 안에서는 숙소에서 가까운 순이에요. "역" 열은 효창공원앞역까지 거리예요.
 - 이 리스트는 **가 볼 곳 고르기용 후보**예요. 앱에는 직접 가서 확인한 내용과 직접 찍은 사진만 넣어요([조사 템플릿](research-template.md)).
@@ -9,17 +9,83 @@
 
 ## 요약
 
-- 수집한 곳: 496곳 → **600m 안: 460곳**, 600m 밖: 36곳
+- 수집한 곳: 511곳 → **600m 안: 475곳**, 600m 밖: 36곳
 - 🐂 한우·소고기: 17곳
 - 🥩 고깃집 (돼지·갈비): 44곳
 - 🍗 치킨: 29곳
 - 🥟 중식: 18곳
 - 🍶 술집: 67곳
-- ☕ 카페·디저트: 118곳
-- 🍢 분식: 31곳
+- 🥐 빵집·베이커리: 32곳
+- ☕ 카페·디저트: 97곳
+- 🍢 분식: 30곳
 - 🍜 국수·국밥·탕: 39곳
-- 🍚 한식: 49곳
-- 🍽️ 기타 (양식·일식·아시안 등): 48곳
+- 🍚 한식: 51곳
+- 🍽️ 기타 (양식·일식·아시안 등): 51곳
+
+## ☕ 동네에서 인기 있는 카페·빵집 (34곳)
+
+다이닝코드의 동네별 카페·빵집 검색에서 상위에 오른 곳이에요(점수는 옮기지 않았어요). 숙소에서 가까운 순.
+
+- NEW IBERIA 효창공원 — 카페, 미국 · 카페 · 숙소 93m · [보기](https://www.diningcode.com/profile.php?rid=ZbMsBJgaBnOK)
+- HFTO 효창공원역 — 베이커리, 포카치아 · 빵집 · 숙소 111m · [보기](https://www.diningcode.com/profile.php?rid=Swqbg5bHCbRH)
+- 카페 요아정 원효로점 — 요거트아이스크림, 아이스크림 · 카페 · 숙소 125m · [보기](https://www.diningcode.com/profile.php?rid=LoUD5GBHx1fr)
+- 하나바게트 — 샌드위치, 바게트샌드위치 · 빵집 · 숙소 168m · [보기](https://www.diningcode.com/profile.php?rid=FoUNDEbZpq56)
+- 치즈프로토타입 — 빵, 카페 · 빵집 · 숙소 187m · [보기](https://www.diningcode.com/profile.php?rid=et9FndI31cz7)
+- 베이커리무이 남영역 — 소금빵, 베이커리 · 빵집 · 숙소 213m · [보기](https://www.diningcode.com/profile.php?rid=yTxE27Pvhkay)
+- 찰찰보리식빵 효창공원점 — 빵, 식빵 · 빵집 · 숙소 247m · [보기](https://www.diningcode.com/profile.php?rid=wGjiuj45SToG)
+- 드립쏘 남영역 — 커피, 카페 · 카페 · 숙소 279m · [보기](https://www.diningcode.com/profile.php?rid=bSAe7qAU0twS)
+- AUZ 남영역 — 브런치, 에그베네딕트 · 카페 · 숙소 283m · [보기](https://www.diningcode.com/profile.php?rid=feUv8KEXwAiz)
+- 다과상사 효창공원역 — 카페, 스콘 · 카페 · 숙소 293m · [보기](https://www.diningcode.com/profile.php?rid=Fv8Cn3jPd937)
+- 오하요 도넛 남영역 — 도넛 · 빵집 · 숙소 316m · [보기](https://www.diningcode.com/profile.php?rid=m5ClVfsvLDzj)
+- 베이크니틀리 효창공원역 — 디저트, 구움과자 · 카페 · 숙소 322m · [보기](https://www.diningcode.com/profile.php?rid=NdaMzlTwU0ZE)
+- 오츠커피 남영역 — 커피, 아인슈페너 · 카페 · 숙소 325m · [보기](https://www.diningcode.com/profile.php?rid=qFpn3d2hNDFt)
+- 타바타 남영역 — 카페, 후르츠산도 · 카페 · 숙소 346m · [보기](https://www.diningcode.com/profile.php?rid=t5Zg6mgl12QS)
+- 모르페커피 남영역 — 커피, 카페 · 카페 · 숙소 368m · [보기](https://www.diningcode.com/profile.php?rid=aQndOxMylnU6)
+- 녹음집 용문시장 — 카페, 북카페 · 카페 · 숙소 373m · [보기](https://www.diningcode.com/profile.php?rid=1nZzrL5ZhMVw)
+- 우스블랑 효창공원앞역 — 빵 · 빵집 · 숙소 376m · [보기](https://www.diningcode.com/profile.php?rid=SqQyvx9zAKVC)
+- 마타사 효창 — 디저트, 카페 · 카페 · 숙소 390m · [보기](https://www.diningcode.com/profile.php?rid=Oyo4fqaNEgFZ)
+- 원오브카인드 남영역 — 베이커리, 두바이쫀득쿠키 · 빵집 · 숙소 398m · [보기](https://www.diningcode.com/profile.php?rid=0cUL81srzVKp)
+- 빈스미스 커피 로스터스 남영역 — 커피, 로스팅 · 카페 · 숙소 404m · [보기](https://www.diningcode.com/profile.php?rid=nWDVLnFAjraz)
+- 빵이오 용문시장 — 빵, 치아바타 · 빵집 · 숙소 404m · [보기](https://www.diningcode.com/profile.php?rid=C2NXIth4J6KR)
+- 바마셀 남영역 — 에스프레소, 에스프레소바 · 카페 · 숙소 410m · [보기](https://www.diningcode.com/profile.php?rid=bygLsWO4vAPw)
+- 카페 몽떼 남영역 — 커피, 카페 · 카페 · 숙소 413m · [보기](https://www.diningcode.com/profile.php?rid=TLLVQPn2AHkp)
+- 브랑쿠시 용문시장 — 카페, 디저트 · 카페 · 숙소 447m · [보기](https://www.diningcode.com/profile.php?rid=M2BugJMWR4l0)
+- 소소 용문시장 — 카페, 커피 · 카페 · 숙소 467m · [보기](https://www.diningcode.com/profile.php?rid=Ne1awbibui3h)
+- 빵마을 과자점 용문시장 — 빵집 · 빵집 · 숙소 475m · [보기](https://www.diningcode.com/profile.php?rid=EkvIW4YEELj4)
+- 파티시에 고재석 용문시장 — 빵, 식빵 · 빵집 · 숙소 485m · [보기](https://www.diningcode.com/profile.php?rid=cj4TwlpFIh3v)
+- 빵이가득한집 — 빵, 올리브 · 빵집 · 숙소 487m · [보기](https://www.diningcode.com/profile.php?rid=O0dRll9TgZbH)
+- mtl 효창점 — 커피, 카페 · 카페 · 숙소 504m · [보기](https://www.diningcode.com/profile.php?rid=xUwBJGkULuEq)
+- 킵햅 — 베이커리 · 빵집 · 숙소 513m · [보기](https://www.diningcode.com/profile.php?rid=6cgUiwxurNx4)
+- 로로카페 청파로점 — 카페, 빵 · 카페 · 숙소 517m · [보기](https://www.diningcode.com/profile.php?rid=V3aZ7gYR1pBl)
+- 커들위드커피 효창공원앞역 — 카페, 디저트 · 카페 · 숙소 552m · [보기](https://www.diningcode.com/profile.php?rid=fQyeMaAF139i)
+- 카페 미우 효창공원앞역 — 핸드드립, 커피 · 카페 · 숙소 563m · [보기](https://www.diningcode.com/profile.php?rid=RAaiR8r5vPOy)
+- 브레드 읍읍 — 카페, 휘낭시에 · 빵집 · 숙소 567m · [보기](https://www.diningcode.com/profile.php?rid=HeSJoelR8W17)
+
+## 💸 저렴한 체인 커피·빵집 위치 (21곳)
+
+외국인 손님이 자주 묻는 "가까운 스타벅스/싼 커피" 답변용. 메가커피·컴포즈·빽다방·매머드는 아메리카노 2천 원 안팎이라 가볍게 들르기 좋아요.
+
+- 배스킨라빈스 효창센터포레 · 숙소 67m · 백범로 313 1층 · [보기](https://www.diningcode.com/profile.php?rid=hTvAxpZUPVAb)
+- 매머드익스프레스 효창공원앞역점 · 숙소 72m · 백범로 313 · [보기](https://www.diningcode.com/profile.php?rid=hdyJx6SZZXYw)
+- 스타벅스 효창공원앞역점 · 숙소 131m · 백범로 313 (효창동, 용산 롯데캐슬 센터포레) · [보기](https://www.diningcode.com/profile.php?rid=6b5P7qTiDPkL)
+- 뚜레쥬르 용산리첸시아점 · 숙소 190m · 백범로 341 · [보기](https://www.diningcode.com/profile.php?rid=WuPKzzEJgJg8)
+- 메가MGC커피 용산리첸시아점 · 숙소 193m · 백범로 341 A동 102호 · [보기](https://www.diningcode.com/profile.php?rid=qC2mz6ifgeXx)
+- 파리바게뜨 용산리첸시아점 · 숙소 214m · 백범로 341 A동 · [보기](https://www.diningcode.com/profile.php?rid=O11ROvmUKNc1)
+- 스타벅스 용산리첸시아점 · 숙소 219m · 백범로 341 · [보기](https://www.diningcode.com/profile.php?rid=FyhkxXSqew6a)
+- 파리바게뜨 효창점 · 숙소 400m · 효창원로 149 · [보기](https://www.diningcode.com/profile.php?rid=1tMzmTV2HUjw)
+- 탐앤탐스 용산문배점 · 숙소 400m · 백범로90길 26 · [보기](https://www.diningcode.com/profile.php?rid=DNKq9lSRDunF)
+- 컴포즈커피 효창공원점 · 숙소 422m · 효창원로69길 6 1층 · [보기](https://www.diningcode.com/profile.php?rid=8n1qNUkdT5sp)
+- 파리바게뜨 원효로점 · 숙소 425m · 새창로 131 · [보기](https://www.diningcode.com/profile.php?rid=lbjSzJV6FJeO)
+- 메가MGC커피 용산경찰서점 · 숙소 430m · 원효로 257 1층 · [보기](https://www.diningcode.com/profile.php?rid=NogpE1Fv1bxE)
+- 컴포즈커피 용문시장점 · 숙소 433m · 새창로 110-2 1층 · [보기](https://www.diningcode.com/profile.php?rid=3xzWANYV3NyE)
+- 매머드익스프레스 용산더프라임점 · 숙소 434m · 원효로90길 12 · [보기](https://www.diningcode.com/profile.php?rid=6Imj3ltpeTHc)
+- 빽다방 용산문배점 · 숙소 435m · 백범로90길 74 · [보기](https://www.diningcode.com/profile.php?rid=N0KtgydmzjKF)
+- 메가커피 용문시장 · 숙소 437m · 새창로 108-1 1층 · [보기](https://www.diningcode.com/profile.php?rid=A3C40r4O5Kd6)
+- 이디야커피 원효로점 · 숙소 446m · 원효로 257 · [보기](https://www.diningcode.com/profile.php?rid=00kNo4VvGRaK)
+- 이디야 용문점 · 숙소 450m · 원효로41길 73 1층 · [보기](https://www.diningcode.com/profile.php?rid=RXs9BWvfapgT)
+- 빽다방 원효용문시장점 · 숙소 457m · 새창로 132 102호, 103호 · [보기](https://www.diningcode.com/profile.php?rid=qs0l81QyvZud)
+- 매머드익스프레스 용산용문시장점 · 숙소 488m · 효창원로42길 16 · [보기](https://www.diningcode.com/profile.php?rid=I7SuJr12p2CH)
+- 텐퍼센트커피 용산남영점 · 숙소 538m · 원효로97길 19 1층 · [보기](https://www.diningcode.com/profile.php?rid=DHV2LHBRROFc)
 
 ## 🧺 용문시장 안과 바로 옆 (92곳)
 
@@ -141,14 +207,15 @@
 - 솔향기칼국수수제비 — 칼국수, 수제비 · 숙소 524m · [보기](https://www.diningcode.com/profile.php?rid=0dMOaubdtT99)
 - 손맛칼국수 효창공원앞역 — 칼국수, 삼겹살 · 숙소 566m · [보기](https://www.diningcode.com/profile.php?rid=6XTFlMwVXEGk)
 
-### 🐔 삼계탕 (2곳)
+### 🐔 삼계탕 (3곳)
 
 일본·중화권·동남아 여행객이 "꼭 먹어야 할 한국 음식"으로 많이 꼽아요. 맵지 않아요.
 
 - 강원정 남영역 — 삼계탕, 인삼주 · 숙소 335m · [보기](https://www.diningcode.com/profile.php?rid=t4LB5RCB6LTk)
+- 감나무집 — 삼계탕, 염소탕 · 숙소 454m · [보기](https://www.diningcode.com/profile.php?rid=hj6WjDbA16gn)
 - 황토방 — 삼계탕, 백반 · 숙소 463m · [보기](https://www.diningcode.com/profile.php?rid=8jy4HwhjSqr7)
 
-### 🍢 길거리 음식 (떡볶이·어묵·튀김·호떡·붕어빵·꽈배기·핫도그·닭강정) (16곳)
+### 🍢 길거리 음식 (떡볶이·어묵·튀김·호떡·붕어빵·꽈배기·핫도그·닭강정) (17곳)
 
 K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 혼자 먹기 좋아요. 떡볶이는 매운 편.
 
@@ -156,6 +223,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 - 이삭토스트 효창공원앞역점 — 토스트, 핫치킨 · 숙소 271m · [보기](https://www.diningcode.com/profile.php?rid=QiC44RUMLUny)
 - 브레드웨이 — 탕후루, 어묵 · 숙소 334m · [보기](https://www.diningcode.com/profile.php?rid=3NUluK2gNnJH)
 - 효공잉어빵 효창공원역 — 붕어빵 · 숙소 336m · [보기](https://www.diningcode.com/profile.php?rid=icIi5ymNXp1g)
+- 꿀마미 효창동점 — 떡볶이, 튀김 · 숙소 347m · [보기](https://www.diningcode.com/profile.php?rid=zi3goOAXvjqj)
 - 가마로강정 효창공원앞역점 — 닭강정 · 숙소 370m · [보기](https://www.diningcode.com/profile.php?rid=QjAoCsaGzZpo)
 - 경성찹쌀꽈배기 용문점 — 꽈배기, 핫도그 · 숙소 445m · [보기](https://www.diningcode.com/profile.php?rid=owP7hvq31tHH)
 - 부산어묵 용문시장 — 떡볶이, 어묵 · 숙소 487m · [보기](https://www.diningcode.com/profile.php?rid=LhphyejiFgDa)
@@ -557,14 +625,52 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 야키산하 | 이자카야 | 563m | 804m | 원효로97길 5 1층 | [보기](https://www.diningcode.com/profile.php?rid=1M339Isku9sm) |
 | ☐ | 봉구비어 남영역점 | 맥주, 생맥주 | 579m | 824m | 원효로 273-1 | [보기](https://www.diningcode.com/profile.php?rid=lW9vGpVeI77n) |
 
-## ☕ 카페·디저트 (118곳)
+## 🥐 빵집·베이커리 (32곳)
+
+앱 카테고리: `bakery`
+
+| ✓ | 이름 | 음식 | 숙소 | 역 | 주소 | 링크 |
+| --- | --- | --- | --- | --- | --- | --- |
+| ☐ | 꿈나무 카페 | 베이커리, 카페 | 31m | 324m | 백범로 329 1층 | [보기](https://www.diningcode.com/profile.php?rid=Ays61Meu3ZTB) |
+| ☐ | HFTO 효창공원역 | 베이커리, 포카치아 | 111m | 202m | 백범로 313 용산롯데캐슬센터포레 상가동 108호 HFTO | [보기](https://www.diningcode.com/profile.php?rid=Swqbg5bHCbRH) |
+| ☐ | 하나바게트 | 샌드위치, 바게트샌드위치 | 168m | 286m | 원효로63길 20 1층 101호 | [보기](https://www.diningcode.com/profile.php?rid=FoUNDEbZpq56) |
+| ☐ | 치즈프로토타입 | 빵, 카페 | 187m | 177m | 원효로71길 41 1층 101호 | [보기](https://www.diningcode.com/profile.php?rid=et9FndI31cz7) |
+| ☐ | 뚜레쥬르 용산리첸시아점 | 빵, 케이크 | 190m | 503m | 백범로 341 | [보기](https://www.diningcode.com/profile.php?rid=WuPKzzEJgJg8) |
+| ☐ | 언니의식빵가게 남영역 | 빵, 식빵 | 201m | 507m | 원효로 231-1 | [보기](https://www.diningcode.com/profile.php?rid=wmtx5qOQUuA6) |
+| ☐ | 베이커리무이 남영역 | 소금빵, 베이커리 | 213m | 487m | 원효로81길 17 1층 | [보기](https://www.diningcode.com/profile.php?rid=yTxE27Pvhkay) |
+| ☐ | 파리바게뜨 용산리첸시아점 | 베이커리, 카페 | 214m | 526m | 백범로 341 A동 | [보기](https://www.diningcode.com/profile.php?rid=O11ROvmUKNc1) |
+| ☐ | 찰찰보리식빵 효창공원점 | 빵, 식빵 | 247m | 66m | 백범로 295-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=wGjiuj45SToG) |
+| ☐ | 르페르서울 아뜰리에 | 빵, 카페 | 269m | 127m | 효창원로64길 10 1층 | [보기](https://www.diningcode.com/profile.php?rid=MHDf1jIuLrxW) |
+| ☐ | 잇케 남영역 | 케이크, 수제케이크 | 298m | 561m | 원효로83길 13 1층 | [보기](https://www.diningcode.com/profile.php?rid=yfmAlZkmaLdK) |
+| ☐ | 오하요 도넛 남영역 | 도넛 | 316m | 563m | 원효로83길 20 | [보기](https://www.diningcode.com/profile.php?rid=m5ClVfsvLDzj) |
+| ☐ | 브레드웨이 | 탕후루, 어묵 | 334m | 32m | 백범로 287 | [보기](https://www.diningcode.com/profile.php?rid=3NUluK2gNnJH) |
+| ☐ | 외계인방앗간 원효점 | 빵 | 340m | 652m | 백범로90길 90 | [보기](https://www.diningcode.com/profile.php?rid=2QrRPgZoFzWk) |
+| ☐ | 온오프커피 효창 | 베이커리 | 365m | 252m | 효창원로70길 6 1층 | [보기](https://www.diningcode.com/profile.php?rid=OxtdrLM3ynAT) |
+| ☐ | 마이 브런치 | 뷔페, 베이커리 | 371m | 683m | 백범로90길 90 상가동 1층 | [보기](https://www.diningcode.com/profile.php?rid=YrA8IDZQHzW2) |
+| ☐ | 키노카베이커리 | 베이커리, 베이커리카페 | 373m | 643m | 원효로 251 101호 | [보기](https://www.diningcode.com/profile.php?rid=1Ej5FEZ6bDiQ) |
+| ☐ | 우스블랑 효창공원앞역 | 빵 | 376m | 250m | 효창원로70길 4 1,2층 | [보기](https://www.diningcode.com/profile.php?rid=SqQyvx9zAKVC) |
+| ☐ | 원오브카인드 남영역 | 베이커리, 두바이쫀득쿠키 | 398m | 695m | 백범로87길 48 1층 | [보기](https://www.diningcode.com/profile.php?rid=0cUL81srzVKp) |
+| ☐ | 쌩빵 | 베이글, 소금빵 | 398m | 654m | 원효로89길 8 1층 | [보기](https://www.diningcode.com/profile.php?rid=7DxdVeGv8HDl) |
+| ☐ | 파리바게뜨 효창점 | 베이커리 | 400m | 231m | 효창원로 149 | [보기](https://www.diningcode.com/profile.php?rid=1tMzmTV2HUjw) |
+| ☐ | 빵이오 용문시장 | 빵, 치아바타 | 404m | 488m | 원효로58길 22 | [보기](https://www.diningcode.com/profile.php?rid=C2NXIth4J6KR) |
+| ☐ | 파리바게뜨 원효로점 | 빵, 베이커리 | 425m | 376m | 새창로 131 | [보기](https://www.diningcode.com/profile.php?rid=lbjSzJV6FJeO) |
+| ☐ | 발효미학 효창공원 | 떡집, 카페 | 426m | 274m | 효창원로 155 1층 | [보기](https://www.diningcode.com/profile.php?rid=RUdRiVME6zsQ) |
+| ☐ | 경성찹쌀꽈배기 용문점 | 꽈배기, 핫도그 | 445m | 239m | 효창원로 101-1 | [보기](https://www.diningcode.com/profile.php?rid=owP7hvq31tHH) |
+| ☐ | 스트라다 로스터스 용산점 | 샌드위치, 빵 | 474m | 785m | 백범로90길 70 1층 | [보기](https://www.diningcode.com/profile.php?rid=g3klN5kQdDn7) |
+| ☐ | 빵마을 과자점 용문시장 | 빵집 | 475m | 278m | 효창원로 100 | [보기](https://www.diningcode.com/profile.php?rid=EkvIW4YEELj4) |
+| ☐ | 파티시에 고재석 용문시장 | 빵, 식빵 | 485m | 417m | 원효로41길 66 1층 고재석 파티시에 | [보기](https://www.diningcode.com/profile.php?rid=cj4TwlpFIh3v) |
+| ☐ | 빵이가득한집 | 빵, 올리브 | 487m | 320m | 효창원로42길 12 | [보기](https://www.diningcode.com/profile.php?rid=O0dRll9TgZbH) |
+| ☐ | 킵햅 | 베이커리 | 513m | 710m | 원효로97길 37 1층 | [보기](https://www.diningcode.com/profile.php?rid=6cgUiwxurNx4) |
+| ☐ | 몽소 | 베이커리, 카페 | 548m | 808m | 원효로 268 103호 | [보기](https://www.diningcode.com/profile.php?rid=c2F0gO52vNbp) |
+| ☐ | 브레드 읍읍 | 카페, 휘낭시에 | 567m | 264m | 새창로14길 8 | [보기](https://www.diningcode.com/profile.php?rid=HeSJoelR8W17) |
+
+## ☕ 카페·디저트 (97곳)
 
 앱 카테고리: `cafe`
 
 | ✓ | 이름 | 음식 | 숙소 | 역 | 주소 | 링크 |
 | --- | --- | --- | --- | --- | --- | --- |
 | ☐ | 카피타노네모 | 브런치, 포카치아 | 14m | 315m | 백범로 321 1층 | [보기](https://www.diningcode.com/profile.php?rid=4wkeX6OSCyI3) |
-| ☐ | 꿈나무 카페 | 베이커리, 카페 | 31m | 324m | 백범로 329 1층 | [보기](https://www.diningcode.com/profile.php?rid=Ays61Meu3ZTB) |
 | ☐ | 인디에어 효창공원 | 카페, 밀크티 | 46m | 355m | 백범로 325 인디에어 | [보기](https://www.diningcode.com/profile.php?rid=2GbdKPFRUnxf) |
 | ☐ | 카페 라메라 | 카페, 사주카페 | 50m | 330m | 백범로 324 1층 | [보기](https://www.diningcode.com/profile.php?rid=tVvirTw7mlL5) |
 | ☐ | 리키코 | 브런치 | 61m | 349m | 백범로 326 1층 | [보기](https://www.diningcode.com/profile.php?rid=7bsGJ7vakmSa) |
@@ -573,34 +679,23 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | NEW IBERIA 효창공원 | 카페, 미국 | 93m | 393m | 서울 용산구 백범로 330-1 | [보기](https://www.diningcode.com/profile.php?rid=ZbMsBJgaBnOK) |
 | ☐ | 로로커피 | 카페 | 93m | 386m | 원효로77길 24 1층 | [보기](https://www.diningcode.com/profile.php?rid=fTeuA2p4CdIM) |
 | ☐ | 크눌프 | 카페 | 95m | 314m | 백범로77길 24 1층 | [보기](https://www.diningcode.com/profile.php?rid=A1VOjeyUrpmQ) |
-| ☐ | HFTO 효창공원역 | 베이커리, 포카치아 | 111m | 202m | 백범로 313 용산롯데캐슬센터포레 상가동 108호 HFTO | [보기](https://www.diningcode.com/profile.php?rid=Swqbg5bHCbRH) |
 | ☐ | 카페 요아정 원효로점 | 요거트아이스크림, 아이스크림 | 125m | 371m | 원효로 205 1층 | [보기](https://www.diningcode.com/profile.php?rid=LoUD5GBHx1fr) |
 | ☐ | 스타벅스 효창공원앞역점 | 커피, 카페 | 131m | 181m | 백범로 313 (효창동, 용산 롯데캐슬 센터포레) | [보기](https://www.diningcode.com/profile.php?rid=6b5P7qTiDPkL) |
 | ☐ | 결핍의결핍 효창공원역 | 카페, 위스키 | 150m | 355m | 원효로 203 1층 | [보기](https://www.diningcode.com/profile.php?rid=edtR3R06Z63o) |
 | ☐ | 선데이드림커피클럽 | 카페, 휘낭시에 | 153m | 411m | 원효로 210 1층 | [보기](https://www.diningcode.com/profile.php?rid=EEaaR0SY6L9t) |
 | ☐ | 토니 | 커피, 술빵 | 155m | 264m | 백범로79길 26 1층 102호 | [보기](https://www.diningcode.com/profile.php?rid=fXUpFm7YitzO) |
-| ☐ | 하나바게트 | 샌드위치, 바게트샌드위치 | 168m | 286m | 원효로63길 20 1층 101호 | [보기](https://www.diningcode.com/profile.php?rid=FoUNDEbZpq56) |
 | ☐ | 사우스 | 카페, 단호박 | 180m | 290m | 원효로63길 18 | [보기](https://www.diningcode.com/profile.php?rid=UXMLYfcocMw0) |
-| ☐ | 치즈프로토타입 | 빵, 카페 | 187m | 177m | 원효로71길 41 1층 101호 | [보기](https://www.diningcode.com/profile.php?rid=et9FndI31cz7) |
 | ☐ | 블랙오터 | 카페 | 187m | 495m | 원효로 229-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=ncT6NghO6PFf) |
-| ☐ | 뚜레쥬르 용산리첸시아점 | 빵, 케이크 | 190m | 503m | 백범로 341 | [보기](https://www.diningcode.com/profile.php?rid=WuPKzzEJgJg8) |
 | ☐ | 메가MGC커피 용산리첸시아점 | 커피, 아이스라떼 | 193m | 506m | 백범로 341 A동 102호 | [보기](https://www.diningcode.com/profile.php?rid=qC2mz6ifgeXx) |
-| ☐ | 언니의식빵가게 남영역 | 빵, 식빵 | 201m | 507m | 원효로 231-1 | [보기](https://www.diningcode.com/profile.php?rid=wmtx5qOQUuA6) |
-| ☐ | 베이커리무이 남영역 | 소금빵, 베이커리 | 213m | 487m | 원효로81길 17 1층 | [보기](https://www.diningcode.com/profile.php?rid=yTxE27Pvhkay) |
-| ☐ | 파리바게뜨 용산리첸시아점 | 베이커리, 카페 | 214m | 526m | 백범로 341 A동 | [보기](https://www.diningcode.com/profile.php?rid=O11ROvmUKNc1) |
 | ☐ | 스타벅스 용산리첸시아점 | 콜드브루, 프라푸치노 | 219m | 530m | 백범로 341 | [보기](https://www.diningcode.com/profile.php?rid=FyhkxXSqew6a) |
-| ☐ | 찰찰보리식빵 효창공원점 | 빵, 식빵 | 247m | 66m | 백범로 295-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=wGjiuj45SToG) |
 | ☐ | 윗올커피샵 | 커피, 카페 | 252m | 101m | 효창원로62길 19 | [보기](https://www.diningcode.com/profile.php?rid=wrUWa93sIhSF) |
 | ☐ | 챔프커피 용산점 | 커피, 카페 | 263m | 555m | 원효로 239 1층 | [보기](https://www.diningcode.com/profile.php?rid=hzuSUIpHVY8a) |
-| ☐ | 르페르서울 아뜰리에 | 빵, 카페 | 269m | 127m | 효창원로64길 10 1층 | [보기](https://www.diningcode.com/profile.php?rid=MHDf1jIuLrxW) |
 | ☐ | 빅리터 | 크로플, 카페 | 270m | 86m | 효창원로62길 11 | [보기](https://www.diningcode.com/profile.php?rid=GfLygikJyEOt) |
 | ☐ | 드립쏘 남영역 | 커피, 카페 | 279m | 478m | 백범로77길 61 1층 | [보기](https://www.diningcode.com/profile.php?rid=bSAe7qAU0twS) |
 | ☐ | AUZ 남영역 | 브런치, 에그베네딕트 | 283m | 596m | 백범로 341 용산리첸시아 103동 | [보기](https://www.diningcode.com/profile.php?rid=feUv8KEXwAiz) |
 | ☐ | 구위 브런치바 효창공원앞역 | 샌드위치 | 284m | 114m | 효창원로64길 6 1층 | [보기](https://www.diningcode.com/profile.php?rid=BaQKjBa8traq) |
 | ☐ | 다과상사 효창공원역 | 카페, 스콘 | 293m | 21m | 백범로 291 | [보기](https://www.diningcode.com/profile.php?rid=Fv8Cn3jPd937) |
-| ☐ | 잇케 남영역 | 케이크, 수제케이크 | 298m | 561m | 원효로83길 13 1층 | [보기](https://www.diningcode.com/profile.php?rid=yfmAlZkmaLdK) |
 | ☐ | 괜찮은온도 | 커피, 카페 | 302m | 65m | 효창원로 132 1층 | [보기](https://www.diningcode.com/profile.php?rid=sQFqxSNGKIiD) |
-| ☐ | 오하요 도넛 남영역 | 도넛 | 316m | 563m | 원효로83길 20 | [보기](https://www.diningcode.com/profile.php?rid=m5ClVfsvLDzj) |
 | ☐ | 베이크니틀리 효창공원역 | 디저트, 구움과자 | 322m | 98m | 백범로74길 50 1층 101호 | [보기](https://www.diningcode.com/profile.php?rid=NdaMzlTwU0ZE) |
 | ☐ | 오츠커피 남영역 | 커피, 아인슈페너 | 325m | 577m | 원효로89길 13-12 오츠커피 | [보기](https://www.diningcode.com/profile.php?rid=qFpn3d2hNDFt) |
 | ☐ | 세렌디피크닉 용문시장 | 브런치, 파스타 | 328m | 401m | 원효로 186 1층 세렌디피크닉 | [보기](https://www.diningcode.com/profile.php?rid=qUdRhqfF5jd7) |
@@ -613,19 +708,15 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 모르페커피 남영역 | 커피, 카페 | 368m | 619m | 원효로89길 13-1 1층 모르페커피 | [보기](https://www.diningcode.com/profile.php?rid=aQndOxMylnU6) |
 | ☐ | 녹음집 용문시장 | 카페, 북카페 | 373m | 387m | 원효로 177-2 2층 | [보기](https://www.diningcode.com/profile.php?rid=1nZzrL5ZhMVw) |
 | ☐ | 나름 | 카페, 크림커피 | 373m | 444m | 원효로58길 14 | [보기](https://www.diningcode.com/profile.php?rid=39LY6C2JADpQ) |
-| ☐ | 키노카베이커리 | 베이커리, 베이커리카페 | 373m | 643m | 원효로 251 101호 | [보기](https://www.diningcode.com/profile.php?rid=1Ej5FEZ6bDiQ) |
-| ☐ | 우스블랑 효창공원앞역 | 빵 | 376m | 250m | 효창원로70길 4 1,2층 | [보기](https://www.diningcode.com/profile.php?rid=SqQyvx9zAKVC) |
 | ☐ | 카페 라빈 | 커피, 카페 | 376m | 629m | 원효로89길 11 | [보기](https://www.diningcode.com/profile.php?rid=YvO5DGHPXN7M) |
 | ☐ | 베러디 | 카페 | 386m | 653m | 원효로89길 3 | [보기](https://www.diningcode.com/profile.php?rid=7TE2l6f3pYYi) |
 | ☐ | 낫투두 낫토앤바 용문시장 | 낫또, 젤라또 | 388m | 146m | 효창원로55길 3-9 1층 | [보기](https://www.diningcode.com/profile.php?rid=YYmYHira45YL) |
 | ☐ | 마타사 효창 | 디저트, 카페 | 390m | 284m | 효창원로70길 9 1층 | [보기](https://www.diningcode.com/profile.php?rid=Oyo4fqaNEgFZ) |
 | ☐ | 카페 모임 남영역 | 커피, 카페 | 396m | 638m | 원효로89길 12-1 | [보기](https://www.diningcode.com/profile.php?rid=38HMbqAgvFr3) |
-| ☐ | 원오브카인드 남영역 | 베이커리, 두바이쫀득쿠키 | 398m | 695m | 백범로87길 48 1층 | [보기](https://www.diningcode.com/profile.php?rid=0cUL81srzVKp) |
-| ☐ | 쌩빵 | 베이글, 소금빵 | 398m | 654m | 원효로89길 8 1층 | [보기](https://www.diningcode.com/profile.php?rid=7DxdVeGv8HDl) |
+| ☐ | 탐앤탐스 용산문배점 | 커피, 카페 | 400m | 708m | 백범로90길 26 | [보기](https://www.diningcode.com/profile.php?rid=DNKq9lSRDunF) |
 | ☐ | 카페 아뜰리에콩포트 효창공원역 | 브런치 | 402m | 273m | 효창원로 154 1층 | [보기](https://www.diningcode.com/profile.php?rid=dtZguUuqUq0Z) |
 | ☐ | 누살롱 효창공원역 | 브런치, 위스키 | 403m | 91m | 백범로 284 1, 2층 | [보기](https://www.diningcode.com/profile.php?rid=t38MdXkdJ8X5) |
 | ☐ | 빈스미스 커피 로스터스 남영역 | 커피, 로스팅 | 404m | 706m | 백범로90라길 39 (원효로1가) | [보기](https://www.diningcode.com/profile.php?rid=nWDVLnFAjraz) |
-| ☐ | 빵이오 용문시장 | 빵, 치아바타 | 404m | 488m | 원효로58길 22 | [보기](https://www.diningcode.com/profile.php?rid=C2NXIth4J6KR) |
 | ☐ | 바마셀 남영역 | 에스프레소, 에스프레소바 | 410m | 662m | 원효로89길 12 건물뒷편 1층 | [보기](https://www.diningcode.com/profile.php?rid=bygLsWO4vAPw) |
 | ☐ | 로지커피 남영역 | 카페, 커피 | 410m | 707m | 백범로87길 48-5 | [보기](https://www.diningcode.com/profile.php?rid=gQVxGcoMCdD1) |
 | ☐ | 에그요크 남영역 | 브런치, 카페 | 411m | 657m | 원효로93길 22 1층 | [보기](https://www.diningcode.com/profile.php?rid=0yN4PHQZ4RrS) |
@@ -633,12 +724,12 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 읍천리382 원효점 | 샌드위치, 포케 | 418m | 354m | 새창로 129 1층 | [보기](https://www.diningcode.com/profile.php?rid=IKRhGz5b47z2) |
 | ☐ | 모래 남영역 | 카페, 스콘 | 419m | 704m | 원효로90길 8 | [보기](https://www.diningcode.com/profile.php?rid=lQOZ2VvLXOoT) |
 | ☐ | 컴포즈커피 효창공원점 | 카페, 초코라떼 | 422m | 256m | 효창원로69길 6 1층 | [보기](https://www.diningcode.com/profile.php?rid=8n1qNUkdT5sp) |
-| ☐ | 파리바게뜨 원효로점 | 빵, 베이커리 | 425m | 376m | 새창로 131 | [보기](https://www.diningcode.com/profile.php?rid=lbjSzJV6FJeO) |
 | ☐ | 더카페 용문사거리점 | 카페, 디저트카페 | 426m | 260m | 새창로 116 1.2층 | [보기](https://www.diningcode.com/profile.php?rid=COwOWf7JneHR) |
 | ☐ | talkmemory | 커피, 로스터리카페 | 427m | 150m | 효창원로55길 17 1층 | [보기](https://www.diningcode.com/profile.php?rid=zSgZqUZjpibh) |
 | ☐ | 메가MGC커피 용산경찰서점 | 커피, 카페 | 430m | 693m | 원효로 257 1층 | [보기](https://www.diningcode.com/profile.php?rid=NogpE1Fv1bxE) |
 | ☐ | 컴포즈커피 용문시장점 | 커피, 와플 | 433m | 223m | 새창로 110-2 1층 | [보기](https://www.diningcode.com/profile.php?rid=3xzWANYV3NyE) |
 | ☐ | 매머드익스프레스 용산더프라임점 | 커피, 카페 | 434m | 722m | 원효로90길 12 | [보기](https://www.diningcode.com/profile.php?rid=6Imj3ltpeTHc) |
+| ☐ | 빽다방 용산문배점 | 카페 | 435m | 747m | 백범로90길 74 | [보기](https://www.diningcode.com/profile.php?rid=N0KtgydmzjKF) |
 | ☐ | 메가커피 용문시장 | 카페, 퐁크러쉬 | 437m | 217m | 새창로 108-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=A3C40r4O5Kd6) |
 | ☐ | 굿뉴스 카페앤모어 남영역 | 카페, 디저트 | 437m | 678m | 원효로93길 18-6 | [보기](https://www.diningcode.com/profile.php?rid=DkGj4QMVRi5r) |
 | ☐ | 이디야커피 원효로점 | 커피, 카페 | 446m | 707m | 원효로 257 | [보기](https://www.diningcode.com/profile.php?rid=00kNo4VvGRaK) |
@@ -649,10 +740,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 긴 | 카페, 커피 | 466m | 485m | 원효로52길 9 1층 | [보기](https://www.diningcode.com/profile.php?rid=37cd9eWpbOtC) |
 | ☐ | 소소 용문시장 | 카페, 커피 | 467m | 189m | 새창로 100 1층 소소카페 | [보기](https://www.diningcode.com/profile.php?rid=Ne1awbibui3h) |
 | ☐ | 비니빈 | 과일주스, 카페 | 470m | 559m | 새창로45길 20-1 | [보기](https://www.diningcode.com/profile.php?rid=MVCsfMCkHt8I) |
-| ☐ | 빵마을 과자점 용문시장 | 빵집 | 475m | 278m | 효창원로 100 | [보기](https://www.diningcode.com/profile.php?rid=EkvIW4YEELj4) |
 | ☐ | 휴cafe | 카페 | 481m | 204m | 새창로20길 4 | [보기](https://www.diningcode.com/profile.php?rid=4Cmvl5dAiN4d) |
-| ☐ | 파티시에 고재석 용문시장 | 빵, 식빵 | 485m | 417m | 원효로41길 66 1층 고재석 파티시에 | [보기](https://www.diningcode.com/profile.php?rid=cj4TwlpFIh3v) |
-| ☐ | 빵이가득한집 | 빵, 올리브 | 487m | 320m | 효창원로42길 12 | [보기](https://www.diningcode.com/profile.php?rid=O0dRll9TgZbH) |
 | ☐ | 매머드익스프레스 용산용문시장점 | 커피, 카페 | 488m | 331m | 효창원로42길 16 | [보기](https://www.diningcode.com/profile.php?rid=I7SuJr12p2CH) |
 | ☐ | Ybrew | 커피, 카페 | 492m | 560m | 새창로45길 12 1층 | [보기](https://www.diningcode.com/profile.php?rid=PZC5XhSRixdq) |
 | ☐ | 와이브루커피 | 카페 | 493m | 560m | 새창로45길 12 | [보기](https://www.diningcode.com/profile.php?rid=SdvuvvtsL2ZB) |
@@ -668,13 +756,11 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 카페공감 | 카페 | 542m | 326m | 효창원로 91 | [보기](https://www.diningcode.com/profile.php?rid=h73DjzrPXOS7) |
 | ☐ | 커피602 | 커피, 카페 | 545m | 649m | 청파로 109 나진전자월드 14동 | [보기](https://www.diningcode.com/profile.php?rid=aKVFFewnsYaL) |
 | ☐ | 카페 스위치 | 카페 | 547m | 450m | 원효로41길 53 | [보기](https://www.diningcode.com/profile.php?rid=AHirwJH9lfj2) |
-| ☐ | 몽소 | 베이커리, 카페 | 548m | 808m | 원효로 268 103호 | [보기](https://www.diningcode.com/profile.php?rid=c2F0gO52vNbp) |
 | ☐ | 말라카이트 남영역 | 젤라또, 무화과 | 549m | 782m | 원효로97길 13 1층 말라카이트 젤라또샵 | [보기](https://www.diningcode.com/profile.php?rid=g5sU0j8jq9xX) |
 | ☐ | 커들위드커피 효창공원앞역 | 카페, 디저트 | 552m | 259m | 새창로14길 16 1층, 2층 | [보기](https://www.diningcode.com/profile.php?rid=fQyeMaAF139i) |
 | ☐ | 헬로스위치커피 | 커피, 카페 | 554m | 457m | 원효로41길 53 | [보기](https://www.diningcode.com/profile.php?rid=EyMG22s0uGJy) |
 | ☐ | 카페 맑음 남영역 | 카페, 수박주스 | 562m | 821m | 원효로 268 | [보기](https://www.diningcode.com/profile.php?rid=2YzzZ2SZ5ckL) |
 | ☐ | 카페 미우 효창공원앞역 | 핸드드립, 커피 | 563m | 257m | 새창로14길 7 1층 | [보기](https://www.diningcode.com/profile.php?rid=RAaiR8r5vPOy) |
-| ☐ | 브레드 읍읍 | 카페, 휘낭시에 | 567m | 264m | 새창로14길 8 | [보기](https://www.diningcode.com/profile.php?rid=HeSJoelR8W17) |
 | ☐ | 더쉐어31 용문시장 | 카페, 수제청 | 570m | 476m | 원효로41길 50 | [보기](https://www.diningcode.com/profile.php?rid=YNouoN2vhzSf) |
 | ☐ | 유틸리티 커피 로스터스 | 핸드드립, 커피 | 582m | 533m | 원효로48길 7 1층 | [보기](https://www.diningcode.com/profile.php?rid=XzPmWawwht4z) |
 | ☐ | 티타임커피 용산전자상가점 | 아메리카노, 카페 | 585m | 629m | 새창로 156 3층 | [보기](https://www.diningcode.com/profile.php?rid=3yqtEd93gl5f) |
@@ -682,7 +768,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 블랙인썸니아 | 카페 | 590m | 565m | 원효로48길 17 1층 | [보기](https://www.diningcode.com/profile.php?rid=YEB00fO4ylHd) |
 | ☐ | 쏠티캐빈 용산직영점 | 카페, 디저트 | 595m | 583m | 새창로44길 10 1층 | [보기](https://www.diningcode.com/profile.php?rid=0zm5N0jUVnPj) |
 
-## 🍢 분식 (31곳)
+## 🍢 분식 (30곳)
 
 앱 카테고리: `snack`
 
@@ -696,15 +782,14 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 이삭토스트 효창공원앞역점 | 토스트, 핫치킨 | 271m | 42m | 백범로 293 | [보기](https://www.diningcode.com/profile.php?rid=QiC44RUMLUny) |
 | ☐ | 용대박 | 백반, 순대국 | 284m | 550m | 원효로83길 13-5 | [보기](https://www.diningcode.com/profile.php?rid=fBbFI331GUO9) |
 | ☐ | 엄마손맛김밥 | 김밥 | 297m | 27m | 효창원로 128 | [보기](https://www.diningcode.com/profile.php?rid=raDxLEqlAFD5) |
-| ☐ | 브레드웨이 | 탕후루, 어묵 | 334m | 32m | 백범로 287 | [보기](https://www.diningcode.com/profile.php?rid=3NUluK2gNnJH) |
 | ☐ | 효공잉어빵 효창공원역 | 붕어빵 | 336m | 156m | 서울 용산구 효창원로 142 | [보기](https://www.diningcode.com/profile.php?rid=icIi5ymNXp1g) |
+| ☐ | 꿀마미 효창동점 | 떡볶이, 튀김 | 347m | 200m | 효창원로 146 | [보기](https://www.diningcode.com/profile.php?rid=zi3goOAXvjqj) |
 | ☐ | 싸다김밥 남영역점 | 분식, 김밥 | 360m | 633m | 원효로 249 1층 102호 | [보기](https://www.diningcode.com/profile.php?rid=1qcjHhc5ozzF) |
 | ☐ | 필리도그 용산 | 핫도그, 치즈스테이크 | 381m | 642m | 원효로89길 7 1, 2층 | [보기](https://www.diningcode.com/profile.php?rid=yAtJHmesVskB) |
 | ☐ | 역전우동0410 용산용문점 | 우동, 튀김 | 401m | 244m | 새창로 113-2 1층 | [보기](https://www.diningcode.com/profile.php?rid=n194DUuprn2n) |
 | ☐ | 두꺼비순대국 | 순대국, 뼈해장국 | 424m | 688m | 원효로 257 | [보기](https://www.diningcode.com/profile.php?rid=Rv7PA1FQkUsM) |
 | ☐ | 싱싱나라김밥 용문시장 | 김밥 | 429m | 245m | 새창로 112 | [보기](https://www.diningcode.com/profile.php?rid=B5ifQh4lcWxH) |
 | ☐ | 미쁨김밥 | 김밥 | 441m | 236m | 효창원로 101-2 1층 | [보기](https://www.diningcode.com/profile.php?rid=VKdpPBhxbUSM) |
-| ☐ | 경성찹쌀꽈배기 용문점 | 꽈배기, 핫도그 | 445m | 239m | 효창원로 101-1 | [보기](https://www.diningcode.com/profile.php?rid=owP7hvq31tHH) |
 | ☐ | 큰손원조할매순대국 용산남영점 | 순대국 | 451m | 711m | 원효로 259 | [보기](https://www.diningcode.com/profile.php?rid=Z6mL1OJr0Vpk) |
 | ☐ | 부산어묵 용문시장 | 떡볶이, 어묵 | 487m | 309m | 효창원로42길 6 | [보기](https://www.diningcode.com/profile.php?rid=LhphyejiFgDa) |
 | ☐ | 토마토분식 | 종합분식, 분식 | 495m | 265m | 새창로14길 46 | [보기](https://www.diningcode.com/profile.php?rid=7s65eujyzdSF) |
@@ -766,7 +851,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 손맛칼국수 효창공원앞역 | 칼국수, 삼겹살 | 566m | 266m | 새창로12길 11-15 103호 | [보기](https://www.diningcode.com/profile.php?rid=6XTFlMwVXEGk) |
 | ☐ | 두원 용문시장 | 국밥, 미나리 | 572m | 537m | 원효로48길 11-3 | [보기](https://www.diningcode.com/profile.php?rid=bd91bAeqJ6ue) |
 
-## 🍚 한식 (49곳)
+## 🍚 한식 (51곳)
 
 앱 카테고리: `korean`
 
@@ -784,6 +869,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 성희네 용문시장 | 장어구이, 장어탕 | 350m | 318m | 원효로53길 19 | [보기](https://www.diningcode.com/profile.php?rid=nsG5z7BSiXMG) |
 | ☐ | 참다운죽 | 죽 | 359m | 418m | 원효로 182 지하1층 | [보기](https://www.diningcode.com/profile.php?rid=TFl40AiOjp70) |
 | ☐ | 열정도쭈꾸미 남영역 | 쭈꾸미, 철판쭈꾸미 | 365m | 667m | 백범로87길 40 열정도쭈꾸미 | [보기](https://www.diningcode.com/profile.php?rid=AJVCfP595zhk) |
+| ☐ | 기사식당 | 백반 | 365m | 57m | 백범로 283 | [보기](https://www.diningcode.com/profile.php?rid=oqWPhUxcURZQ) |
 | ☐ | 전주산수비빔밥 | 돌솥비빔밥 | 371m | 616m | 원효로89길 19 1층 | [보기](https://www.diningcode.com/profile.php?rid=i7lgHMo1xT6u) |
 | ☐ | 돼지먹기 용문시장 | 갈비찜, 매운갈비찜 | 372m | 388m | 원효로 177-2 | [보기](https://www.diningcode.com/profile.php?rid=vyS5IzilzSpV) |
 | ☐ | 참어랑 남영역 | 생선구이, 고등어구이 | 398m | 649m | 원효로89길 12 지상 1층 참어랑 | [보기](https://www.diningcode.com/profile.php?rid=L0QenrvD1JGa) |
@@ -792,6 +878,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 현선이네부대찌개쭈꾸미 | 오징어볶음, 쭈꾸미 | 401m | 255m | 새창로 115 | [보기](https://www.diningcode.com/profile.php?rid=Klf2YnhQTKu6) |
 | ☐ | 스태미나부타동 | 일본가정식, 부타동 | 402m | 698m | 백범로87길 48-1 1층 | [보기](https://www.diningcode.com/profile.php?rid=OU0p9KklcbCJ) |
 | ☐ | 기름집 남영역 | 냉삼, 김치찌개 | 405m | 703m | 백범로87길 48-4 1층 | [보기](https://www.diningcode.com/profile.php?rid=vKqljCZ4fbvZ) |
+| ☐ | 찌개찝 | 찌개 | 405m | 92m | 백범로 282 1층 | [보기](https://www.diningcode.com/profile.php?rid=Q3lQuAaCaY6g) |
 | ☐ | 강릉초당골 짬뽕순두부 남영역 | 만두, 짬뽕 | 409m | 654m | 원효로93길 22 | [보기](https://www.diningcode.com/profile.php?rid=lIrQRi8vPcyV) |
 | ☐ | 북창동순두부 용산경찰서점 | 순두부 | 424m | 682m | 원효로93길 9-5 1층 | [보기](https://www.diningcode.com/profile.php?rid=sqw6RY8E1lf2) |
 | ☐ | 정성담은회 | 생선회, 방어회 | 426m | 390m | 새창로 131-2 1층 | [보기](https://www.diningcode.com/profile.php?rid=pABrerNBvLxo) |
@@ -822,7 +909,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 시드니참치 | 생선회, 참치회 | 588m | 279m | 새창로14길 4 | [보기](https://www.diningcode.com/profile.php?rid=wI8U2bFC800u) |
 | ☐ | 신용산 | 위구르요리, 한식당 | 594m | 611m | 새창로44길 11 | [보기](https://www.diningcode.com/profile.php?rid=aNjMrBxxEvm7) |
 
-## 🍽️ 기타 (양식·일식·아시안 등) (48곳)
+## 🍽️ 기타 (양식·일식·아시안 등) (51곳)
 
 앱 카테고리: `?`
 
@@ -846,6 +933,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 돈치앤 효창공원역 | 돈까스, 스프 | 354m | 221m | 효창원로66길 7-8 | [보기](https://www.diningcode.com/profile.php?rid=kw3apH1bfFSP) |
 | ☐ | 드라곤타코 용문시장 | 타코, 타코라이스 | 355m | 147m | 효창원로 112 1층 | [보기](https://www.diningcode.com/profile.php?rid=U0wmtm6wVLiu) |
 | ☐ | 함께라면 (새창로) | 라면, 짜파게티 | 360m | 244m | 새창로 115-10 1층 | [보기](https://www.diningcode.com/profile.php?rid=CQKoLbYcV5hR) |
+| ☐ | 비가 | 야끼토리 | 366m | 58m | 백범로 283 1층 | [보기](https://www.diningcode.com/profile.php?rid=th962jKhRBoH) |
 | ☐ | 플라잉파파 남영역 | 샌드위치, 핫치킨 | 407m | 704m | 백범로87길 48-3 1층 | [보기](https://www.diningcode.com/profile.php?rid=NeH8vCIIAemi) |
 | ☐ | 팩토리 | 카레 | 407m | 704m | 백범로87길 48-3 1층 | [보기](https://www.diningcode.com/profile.php?rid=9RMdTTqSR7XE) |
 | ☐ | 제주조개수산 용문시장 | 일식당 | 408m | 401m | 원효로53길 1 박태웅내과의원 1층(원효로2가) | [보기](https://www.diningcode.com/profile.php?rid=zqQdSwh8v8gq) |
@@ -857,6 +945,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 퍼먼토피아 용문시장 | 화덕피자, 치킨 | 433m | 287m | 새창로 116-3 1층 | [보기](https://www.diningcode.com/profile.php?rid=F68wmLl0ZABe) |
 | ☐ | 금락횟집 | 횟집, 지리탕 | 435m | 692m | 원효로93길 9-3 | [보기](https://www.diningcode.com/profile.php?rid=ptb9ndYuBXbD) |
 | ☐ | 피자스쿨 | 피자, 고구마피자 | 452m | 246m | 효창원로 97 1층 | [보기](https://www.diningcode.com/profile.php?rid=mP75IAQJVEQx) |
+| ☐ | 감나무집 | 삼계탕, 염소탕 | 454m | 240m | 효창원로69가길 5 | [보기](https://www.diningcode.com/profile.php?rid=hj6WjDbA16gn) |
 | ☐ | 대포항회 | 횟집, 물회 | 458m | 303m | 새창로 116-7 1층 | [보기](https://www.diningcode.com/profile.php?rid=Put0C3Qam7C3) |
 | ☐ | 소세지하우스 용문시장 | 독일, 소세지 | 463m | 416m | 새창로 132 2층 | [보기](https://www.diningcode.com/profile.php?rid=YtNiERiXqw06) |
 | ☐ | 요쿠참치 | 참치, 참치회 | 470m | 544m | 새창로45길 15 | [보기](https://www.diningcode.com/profile.php?rid=iAhV1d3vc6kI) |
@@ -874,6 +963,7 @@ K-드라마 영향으로 모든 나라 젊은 여행객이 좋아해요. 싸고 
 | ☐ | 백만석횟집 | 횟집, 일식 | 534m | 779m | 원효로97길 3-22 1층 | [보기](https://www.diningcode.com/profile.php?rid=ZxVdVZMqOEE2) |
 | ☐ | 아비꼬 용산더프라임점 | 카레, 커리 | 538m | 821m | 원효로90길 11 주거동 104호 | [보기](https://www.diningcode.com/profile.php?rid=MVsMftTXzJYH) |
 | ☐ | 다래횟집 남영역 | 횟집, 물회 | 544m | 805m | 원효로 268 | [보기](https://www.diningcode.com/profile.php?rid=MCbdeWXceBNM) |
+| ☐ | 피쇽 | 파스타, 티라미슈 | 556m | 747m | 원효로97길 42 B101호 | [보기](https://www.diningcode.com/profile.php?rid=3aKX2xnbrMbR) |
 | ☐ | 키움참치 | 참치, 소주 | 560m | 583m | 새창로44길 3 | [보기](https://www.diningcode.com/profile.php?rid=Cix4nsH58mQS) |
 | ☐ | 큰집빈대떡 남영역 | 전집, 갑오징어 | 575m | 819m | 원효로97길 3 | [보기](https://www.diningcode.com/profile.php?rid=cQIdhBSzy4Kl) |
 

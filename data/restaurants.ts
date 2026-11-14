@@ -1,7 +1,7 @@
 // 맛집 데이터. 직접 가서 확인한 곳만 넣어요(docs/research-template.md 참고).
 // 숙소(lib/area.ts의 STAY)에서 직선 600m 안의 가게만 다뤄요.
 
-export type Category = "korean" | "snack" | "bbq" | "chicken" | "chinese" | "noodle" | "cafe" | "bar";
+export type Category = "korean" | "snack" | "bbq" | "chicken" | "chinese" | "noodle" | "bakery" | "cafe" | "bar";
 
 export type Tag = "englishMenu" | "card" | "solo" | "vegetarian" | "spicy" | "lateNight";
 
