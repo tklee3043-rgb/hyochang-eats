@@ -125,6 +125,38 @@ const menus: Record<string, [ko: string, en: string, priceKrw: number][]> = {
     ["한우육회", "Hanwoo beef tartare (yukhoe)", 35000],
     ["갈비탕", "Beef short rib soup", 17000],
   ],
+  "uyeon-butcher-bbq": [
+    ["한우 등심", "Hanwoo beef sirloin", 36000],
+    ["한우 투뿔차돌박이", "Hanwoo 1++ beef brisket", 30000],
+    ["차돌된장찌개", "Brisket soybean paste stew", 10000],
+    ["후식 물냉면", "Cold noodles (after BBQ)", 6000],
+  ],
+  "yeoljeongdo-bbq": [
+    ["두툼 삼겹살", "Thick-cut pork belly", 17000],
+    ["두툼 뚱목살", "Thick-cut pork neck", 17000],
+    ["고소한 항정살", "Pork jowl", 16000],
+    ["된장술밥", "Soybean stew with rice", 8000],
+  ],
+  "sinhwal-beer": [
+    ["앵그리버드", "Angry Bird fried chicken", 22000],
+    ["앵그리버드 레드", "Angry Bird Red (spicy fried chicken)", 24000],
+    ["바삭 황태 구이", "Crispy grilled dried pollack (beer snack)", 18000],
+  ],
+  "yongmun-haejangguk": [
+    ["해장국 (오전반)", "Haejangguk – hangover soup (morning menu)", 12000],
+    ["소뼈전골 (오후반)", "Beef bone hot pot (evening menu)", 38000],
+    ["미나리한우육회", "Hanwoo beef tartare with water parsley", 20000],
+  ],
+  "imone-bindaetteok": [
+    ["녹두빈대떡", "Mung bean pancake", 5000],
+    ["부추전", "Chive pancake", 5000],
+    ["모듬전", "Assorted Korean pancakes (jeon)", 10000],
+  ],
+  "starbucks-hyochang": [
+    ["플랫 화이트", "Flat white", 5800],
+    ["에그 클럽 샌드위치", "Egg club sandwich", 4500],
+    ["찰떡콩떡 베이글", "Rice cake & bean bagel", 3900],
+  ],
   "yongmun-galbi": [
     ["돼지갈비", "Marinated pork ribs", 22000],
     ["삼겹살", "Pork belly", 18000],
